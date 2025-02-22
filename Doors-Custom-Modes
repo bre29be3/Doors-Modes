@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/Librarykavoui"))()
-local Window = Library.CreateLib("Doors Mode made by Pinki", "DarkTheme")
+local Window = Library.CreateLib("Doors Hub made by Pinki", "DarkTheme")
 local Tab = Window:NewTab("Modes")
 local Section = Tab:NewSection("All of Modes")
 Section:NewButton("Ransom Mode", "Nothing Here", function()
