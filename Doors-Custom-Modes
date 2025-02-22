@@ -81,3 +81,105 @@ Section:NewButton("Creepy Mode", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Modes/refs/heads/main/CreepyMode/ObfuscatedMain.lua"))()
     print("Clicked")
 end)
+local Tab = Window:NewTab("Custom Items")
+local Section = Tab:NewSection("All of Custom Items")
+Section:NewButton("Crucifix On Anything (Q to use)", "ButtonInfo", function()
+_G.Uses = 414141414141
+_G.Range = 30
+_G.OnAnything = true
+_G.Fail = false
+_G.Variant = "Electric"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
+    print("Clicked")
+end)
+Section:NewButton("Scanner", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/main/Scanner.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Seek Gun", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/main/seekgun.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Black Hole", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Black%20Hole.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Grass Tablet", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/grass%20tablet.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Screech Plushie", "ButtonInfo", function()
+local Tool = game:GetObjects("rbxassetid://12982102335")[1]
+local Humanoid = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+
+Tool.Parent = game.Players.LocalPlayer.Backpack
+
+Tool.Equipped:Connect(function()
+    local Idle = Tool.Animations.idle
+    local IdleTrack = Humanoid:LoadAnimation(Idle)
+
+    IdleTrack:Play()
+end)
+Tool.Unequipped:Connect(function()
+    for _,anim in pairs(Humanoid.Animator:GetPlayingAnimationTracks()) do
+        anim:Stop()
+    end
+end)
+    print("Clicked")
+end)
+Section:NewButton("Glitch Tablet", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Agadigas/Doors/refs/heads/main/Glitched%20Scanner%20by%20Custom%20Doors"))()
+    print("Clicked")
+end)
+Section:NewButton("Magnet", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/MagnetByNerd.lua", true))()
+    print("Clicked")
+end)
+Section:NewButton("Shears On Anything", "ButtonInfo", function()
+-- Spawner Customizations --
+_G.Luck = 100 -- The chance of shears spawning in the game
+_G.Spawns = false -- If the shears can spawn naturally in the game
+-- Tool Customizations --
+_G.Durability = 5 -- How much durability it will have until it breaks
+_G.MaxDurability = 5 -- The max durability if you enable regeneration
+_G.InfiniteUses = false -- If The Shears have infinite uses and cannot break
+_G.DurabilityTakenEachSnip = 0.25 -- How much each snip you take with the shears takes from the durability
+_G.SnipSpeed = 1.25 -- The speed of the snipping
+-- Regeneration --
+_G.Regens = true -- If the shears regenerate after being used
+_G.RegenSpeed = 1 -- How fast the shears will regenerate after being used
+_G.RegenAmount = 0.1 -- How much durability it will regenerate after the chosen amount of time
+-- Loadstring --
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Buffed%20Shears%20On%20Everything.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Moonlight Bottle", "ButtonInfo", function()
+loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/04d7dd5e02688624b958b8c2604b924c/raw/9e86b34249f44ed2dd433176e67daaf3db30cde8/MoonBottle'))()
+    print("Clicked")
+end)
+Section:NewButton("Spirallight Bottle", "ButtonInfo", function()
+loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/8b05c837bea9effac2554340465b4be1/raw/3f3be0ee72e7f153db39a16a40fa63dce6cde72d/SpiralBottle'))()
+    print("Clicked")
+end)
+Section:NewButton("Starlight Barrel", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/refs/heads/main/StarJug.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Golden Gummy Flashlight", "ButtonInfo", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/aadyian9000/the-thing/main/GoldenGummyFlashlight.lua"),true))()
+    print("Clicked")
+end)
+Section:NewButton("Shakelights", "ButtonInfo", function()
+local Curious = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Curious%20Shakelight.rbxm?raw=true'
+local Grassful_Flashlight = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Grassful%20Flashlight.rbxm?raw=true'
+local Grassful_Shakelight = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Grassful%20Shakelight.rbxm?raw=true'
+local Guiding = 'https://github.com/Matthew201322/Doors-Scriptee/blob/main/Guiding%20Shakelight.rbxm?raw=true'
+local Mischievous = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Mischievous%20Shakelight.rbxm?raw=true'
+local Wooden = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Wooden%20Shakelight.rbxm?raw=true'
+
+-- the shakelights omg
+
+_G.Model = Guiding
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.luau", true))()
+    print("Clicked")
+end)
