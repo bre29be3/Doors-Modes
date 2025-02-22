@@ -1,0 +1,43 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/Librarykavoui"))()
+local Window = Library.CreateLib("Doors Mode made by Pinki", "DarkTheme")
+local Tab = Window:NewTab("Modes")
+local Section = Tab:NewSection("All of Modes")
+Section:NewButton("Ransom Mode", "Nothing Here", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bre29be3/J/refs/heads/main/Ransom-Mode"))()
+    print("Clicked")
+end)
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "ScreenGui"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+ 
+local Toggle = Instance.new("TextButton")
+Toggle.Name = "Toggle"
+Toggle.Parent = ScreenGui
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+Toggle.Size = UDim2.new(0, 90, 0, 38)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = "Toggle"
+Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
+Toggle.TextSize = 28.000
+Toggle.Draggable = true
+Toggle.MouseButton1Click:connect(function()
+    Library:ToggleUI()
+end)
+ 
+local Corner = Instance.new("UICorner")
+Corner.Name = "Corner"
+Corner.Parent = Toggle
+Section:NewButton("Combined Mode", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bre29be3/J/refs/heads/main/Combined-Mode"))()
+    print("Clicked")
+end)
+Section:NewButton("Hardcore Mode", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/HardcoreFixed.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Mayhem Mode", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Mayhem%20mode%20recreate/Code"))()
+    print("Clicked")
+end)
