@@ -330,3 +330,56 @@ Section:NewButton("Hotel++", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAcceleration/Hotel-Plus-Plus/refs/heads/main/Loader.lua"))()
     print("Clicked")
 end)
+local Tab = Window:NewTab("Hotel- Scripts")
+local Section = Tab:NewSection("All of Hotel- Scripts")
+Section:NewButton("Storage Room", "ButtonInfo", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/MojorainbowYT/ee4c98ca9dc0517be05524e0ad98cade/raw/97cb4cf182c6c6302952cf006401f7df04cc5eac/gistfile1.txt"))()
+    print("Clicked")
+end)
+Section:NewButton("Crucifix & Skeleton Key Pre-Run Shop", "ButtonInfo", function()
+local Crucifix = game.Players.LocalPlayer.PlayerGui.MainUI.ItemShop.Items.ItemShop_Crucifix
+
+if not Crucifix.Visible == true then
+
+    Crucifix.Visible = true
+    local StarterGui = game:GetService("StarterGui")
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Doors Full Pre-Run Shop!";
+    Text = "Loaded!";
+    Duration = 5;
+})
+
+
+    else     local StarterGui = game:GetService("StarterGui")
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Script Loading!";
+    Text = "Loading 1/2!";
+    Duration = 5;
+})
+
+    end
+
+    local SkeletonKey = game.Players.LocalPlayer.PlayerGui.MainUI.ItemShop.Items["ItemShop_Skeleton Key"]
+
+if SkeletonKey.Visible == false then
+    SkeletonKey.Visible = true
+    local StarterGui = game:GetService("StarterGui")
+
+    StarterGui:SetCore("SendNotification", {
+        Title = "Full Pre-Run Shop Loaded!";
+        Text = "Have fun!";
+        Duration = 5;
+    })
+else
+    local StarterGui = game:GetService("StarterGui")
+
+    StarterGui:SetCore("SendNotification", {
+        Title = "Doors Full Pre-Run Shop!";
+        Text = "Have Fun!";
+        Duration = 5;
+    })
+end
+    print("Clicked")
+end)
