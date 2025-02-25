@@ -89,6 +89,18 @@ Section:NewButton("Endless Mode", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/EndlessMode.lua"))()
     print("Clicked")
 end)
+Section:NewButton("Very Hard Mode", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Anzor5458/Very-hard-mode/refs/heads/main/Fix'))()
+    print("Clicked")
+end)
+Section:NewButton("Unpleasant Mode", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Anzor5458/Unpleasant-Mode/refs/heads/main/Anzor"))()
+    print("Clicked")
+end)
+Section:NewButton("Creepy Mode (Old)", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Anzor5458/Mode/refs/heads/main/Creepy%20mode'))()
+    print("Clicked")
+end)
 local Tab = Window:NewTab("Custom Items")
 local Section = Tab:NewSection("All of Custom Items")
 Section:NewButton("Crucifix On Anything (Q to use)", "ButtonInfo", function()
@@ -263,10 +275,84 @@ Section:NewButton("Guiding Light Candle", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAcceleration/Comet-Development/refs/heads/main/Doors/Assets/Storage/Candle.lua"))()
     print("Clicked")
 end)
-local Tab = Window:NewTab("Entities Spawner Hubs")
-local Section = Tab:NewSection("Entities Spawner Hubs")
-Section:NewButton("Plamen Hub", "ButtonInfo", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+Section:NewButton("Normal Plushie", "ButtonInfo", function()
+local plr = game.Players.LocalPlayer
+local hum = plr.Character:WaitForChild("Humanoid")
+
+local plush = game:GetObjects("rbxassetid://17172674896")[1]
+plush.Parent = plr.Backpack
+local anim = hum:LoadAnimation(plush.A.Hold)
+
+plush.Equipped:Connect(function()
+  anim:Play()
+end)
+plush.Unequipped:Connect(function()
+  anim:Stop()
+end)
+
+plush.Activated:Connect(function()
+  plush.Toy:Play()
+end)
+    print("Clicked")
+end)
+Section:NewButton("Rebound Plushie", "ButtonInfo", function()
+local plr = game.Players.LocalPlayer
+local hum = plr.Character:WaitForChild("Humanoid")
+
+local plush = game:GetObjects("rbxassetid://17161557883")[1]
+plush.Parent = plr.Backpack
+local anim = hum:LoadAnimation(plush.A.Hold)
+
+plush.Equipped:Connect(function()
+  anim:Play()
+end)
+plush.Unequipped:Connect(function()
+  anim:Stop()
+end)
+
+plush.Activated:Connect(function()
+  plush.Toy:Play()
+end)
+    print("Clicked")
+end)
+Section:NewButton("Dread Plushie", "ButtonInfo", function()
+local plr = game.Players.LocalPlayer
+local hum = plr.Character:WaitForChild("Humanoid")
+
+local plush = game:GetObjects("rbxassetid://17160678646")[1]
+plush.Parent = plr.Backpack
+local anim = hum:LoadAnimation(plush.A.Hold)
+
+plush.Equipped:Connect(function()
+  anim:Play()
+end)
+plush.Unequipped:Connect(function()
+  anim:Stop()
+end)
+
+plush.Activated:Connect(function()
+  plush.Toy:Play()
+end)
+    print("Clicked")
+end)
+Section:NewButton("Silence Plushie", "ButtonInfo", function()
+local plr = game.Players.LocalPlayer
+local hum = plr.Character:WaitForChild("Humanoid")
+
+local plush = game:GetObjects("rbxassetid://17170996845")[1]
+plush.Parent = plr.Backpack
+local anim = hum:LoadAnimation(plush.A.Hold)
+
+plush.Equipped:Connect(function()
+  anim:Play()
+end)
+plush.Unequipped:Connect(function()
+  anim:Stop()
+end)
+
+plush.Activated:Connect(function()
+  plush.Toy:Play()
+end)
     print("Clicked")
 end)
 local Tab = Window:NewTab("Hubs")
@@ -289,6 +375,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-o
 end)
 Section:NewButton("FFJ Hub", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Modes/refs/heads/main/FFJ"))()
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Entities Spawner Hubs")
+local Section = Tab:NewSection("Entities Spawner Hubs")
+Section:NewButton("Plamen Hub", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
     print("Clicked")
 end)
 local Tab = Window:NewTab("Scripts")
@@ -381,5 +473,11 @@ else
         Duration = 5;
     })
 end
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Random Scripts")
+local Section = Tab:NewSection("Scripts That I Made For Fun")
+Section:NewButton("Random (Entity Spawner)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bre29be3/J/refs/heads/main/Random%20(idk)"))()
     print("Clicked")
 end)
