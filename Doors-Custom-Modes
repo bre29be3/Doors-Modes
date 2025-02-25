@@ -475,6 +475,12 @@ else
 end
     print("Clicked")
 end)
+local Tab = Window:NewTab("Morphs")
+local Section = Tab:NewSection("Scripts That Make U Become The Entities")
+Section:NewButton("Chrono's Morphs Hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))()
+    print("Clicked")
+end)
 local Tab = Window:NewTab("Random Scripts")
 local Section = Tab:NewSection("Scripts That I Made For Fun")
 Section:NewButton("Random (Entity Spawner)", "ButtonInfo", function()
