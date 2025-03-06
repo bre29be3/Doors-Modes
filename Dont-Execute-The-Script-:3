@@ -1,0 +1,6 @@
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Hardcore-V4-Doors-28854"))()
+loadstring(game:HttpGet("https://glot.io/snippets/gp5pu59o7f/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Mode-Remakes/refs/heads/main/HardcoreFixed.lua"))()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Doors-Hardcore-Mode-V2-By-Noonie-29948"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RBXDM/ScrtptsMode/refs/heads/main/Inventory/Mode/Hardcore(Remake)"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RBXDM/ScrtptsMode/refs/heads/main/Inventory/Mode/Hardcore"))()
