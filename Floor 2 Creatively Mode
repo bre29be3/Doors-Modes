@@ -1,0 +1,108 @@
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Creatively Mode Executed Successfully ",true)
+wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Credits To LocalPlayer, Muhammad Games,Volta And Noonie",true)
+
+---====== Load achievement giver ======---
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+---====== Display achievement ======---
+achievementGiver({
+    Title = "OMGGGGG NEW MODE FINALLY:) ",
+    Desc = "Enjoy My First Floor 2 With Entities",
+    Reason = "Initiate My Floor 2 Mode.",
+    Image = "rbxassetid://107161730313394"
+})
+
+--Cave ambience
+local sound = Instance.new("Sound")
+
+sound.SoundId = "rbxassetid://273398061"
+
+sound.Volume = 1
+
+sound.Looped = true
+
+sound:Play()
+
+sound.Parent = workspace
+
+-- Floor 2 Theme
+ require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Floor 2 Script Is Successfully Executed",true)
+
+game.Workspace.CurrentRooms.ChildAdded:Connect(function(Room)
+    task.wait(1.5)
+    if Room:IsA("Model") then
+        if tonumber(Room.Name) ~= nil then
+            for _, v in pairs(Room.Parts:GetDescendants()) do
+                if v:IsA("Part") or v:IsA("BasePart") or v:IsA("MeshPart") or v:IsA("UnionOperation") then
+                    if v.Material == Enum.Material.Wood or v.Material == Enum.Material.WoodPlanks then
+                        v.Color = Color3.fromRGB(60, 60, 60)
+                        v.Material = Enum.Material.Slate
+                        v.MaterialVariant = ""
+                    end
+                end
+            end
+        end
+    end
+end)
+
+-- Door Of Stone
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bre29be3/Doors-Modes/refs/heads/main/Stonedoor"))()
+
+-- goofy screech
+game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(255, 255, 0)
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.SoundId = "rbxassetid://7492033495"
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.PlaybackSpeed = 1.6
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Attack.SoundId = "rbxassetid://8080941676"
+
+-- goofy hide
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.HideMonster.Scare.SoundId = "rbxassetid://9126213741"
+
+-- goofy spider
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.SpiderJumpscare.Scare.SoundId = "rbxassetid://8080941676"
+
+-- a-60
+coroutine.wrap(function()
+    while true do
+        wait(600)
+         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bre29be3/J/refs/heads/main/Floor%202%20A-60"))()
+ 
+end
+ 
+end)()
+
+-- Silence
+coroutine.wrap(function()
+    while true do
+        wait(440)
+         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bre29be3/J/refs/heads/main/Floor%202%20silence"))()
+
+end
+    
+end)()
+
+-- Blackout 
+coroutine.wrap(function()
+    while true do
+        wait(100)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Jahani-john/mayhem-mode/main/mayhemmode-main/ObfuscatedEntities/Blackout-obfuscated.lua'))()
+
+end
+
+end)()
+
+-- Depth
+coroutine.wrap(function()
+    while true do
+        wait(80)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet('https://pastefy.app/JztYAL4m/raw'))()
+
+end
+
+end)()
