@@ -12,14 +12,8 @@ _G.Model = Guiding
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.luau", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Teilsthebfdifan/suggested/refs/heads/main/stonedoor.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAcceleration/Comet-Development/refs/heads/main/Doors/Game/PlayerHealthbars.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Script5039392/Script/main/Hotel%20rooms.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bre29be3/J/refs/heads/main/Floor2"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MuhXd/DoorSuff/main/OtherSuff/Sprint"))()
-local Lighting = game:GetService("Lighting")
-Lighting.Ambient = Color3.new(0, 0, 0)
-Lighting.Brightness = 0.1
-Lighting.FogEnd = 50
-Lighting.FogStart = 35
-Lighting.FogColor = Color3.new(0, 0, 0)
 
 ---====== Load achievement giver ======---
 local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
@@ -36,6 +30,15 @@ coroutine.wrap(function()
     while true do
         wait(35)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/refs/heads/main/Entities/Shocker"))()
+    end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(90)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Scripts/refs/heads/main/Stare"))()
     end
 end)()
 
@@ -86,7 +89,7 @@ local entity = spawner.Create({
 	},
 	Damage = {
 		Enabled = true,
-		Range = 20,
+		Range = 50,
 		Amount = 50
 	},
 	Crucifixion = {
