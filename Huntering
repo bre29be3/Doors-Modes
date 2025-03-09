@@ -1,0 +1,115 @@
+---====== Red Lights ======---
+local rooms = workspace.CurrentRooms
+local redinfo = TweenInfo.new(3)
+local redcolor = {Color = Color3.fromRGB(255, 0, 0)}
+
+for i,v in pairs(rooms:GetDescendants()) do
+	if v:IsA("Light") then
+		game.TweenService:Create(v, redinfo, redcolor):Play()
+		if v.Parent.Name == "LightFixture" then
+			game.TweenService:Create(v.Parent, redinfo, redcolor):Play()
+		end
+	end
+end
+
+---====== Camera Shaker ======---
+local cameraShaker = require(game.ReplicatedStorage.CameraShaker)
+local cam = workspace.CurrentCamera
+
+local camShake = cameraShaker.new(Enum.RenderPriority.Camera.Value, function(cf)
+	cam.CFrame = cam.CFrame * cf
+end)
+
+camShake:Start()
+camShake:Shake(cameraShaker.Presets.Earthquake)
+
+---====== Define spawner ======---
+
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
+
+---====== Create entity ======---
+
+local entity = Spawner.createEntity({
+    CustomName = "Huntering",
+    Model = "rbxassetid://12154179040", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 179,
+    MoveDelay = 7.8,
+    HeightOffset = 5,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 1
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        Delay = 2
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {15, 25, 0.1, 2, 6},
+        Range = 100
+    },
+    ResistCrucifix = false,
+    BreakCrucifix = true,
+    DeathMessage = {"You died who you call Huntering...", "You can tell his is Hunting by the lights and his scream.", "Hide when does this!"},
+    IsCuriousLight = false
+})
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawned")
+	camShake:Start()
+	camShake:Shake(cameraShaker.Presets.Explosion)
+	
+		---====== Load achievement giver ======---
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+---====== Display achievement ======---
+achievementGiver({
+    Title = "The Hunt",
+    Desc = "I'm Coming For You..",
+    Reason = "Encounter Huntering.",
+    Image = "rbxassetid://17702317077"
+})
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    print("Player has died")
+end
+
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
