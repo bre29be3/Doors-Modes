@@ -1,0 +1,788 @@
+local entityModel = true
+
+if game.Workspace:FindFirstChild("SeekMovingNewClone") or game.ReplicatedStorage.GameData.LatestRoom.Value == 50 or game.ReplicatedStorage.GameData.LatestRoom.Value == 51 or game.ReplicatedStorage.GameData.LatestRoom.Value == 52 or workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Assets:FindFirstChild("ShopProps") then
+
+entityModel = false
+
+end
+
+if entityModel then
+
+---====== Define spawner ======---
+ 
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
+ 
+---====== Create entity ======---
+ 
+local entity = Spawner.createEntity({
+    CustomName = "Matcher",
+    Model = "rbxassetid://8308568220",
+    Speed = 125,
+    MoveDelay = 2,
+    HeightOffset = 0,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = true,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 0
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1.5,
+        Delay = 2
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {1.5, 20, 0.1, 1},
+        Range = 100
+    },
+    ResistCrucifix = false,
+    BreakCrucifix = true
+})
+
+local SuperB60 = Instance.new("Part")
+SuperB60.Name = "SuperB-60"
+SuperB60.Shape = "Block"
+SuperB60.Size = Vector3.new(5, 1, 5)
+SuperB60.Anchored = true
+SuperB60.CanCollide = false
+SuperB60.Transparency = 1
+SuperB60.Parent = workspace
+
+a = Instance.new("Attachment") 
+a.Position = Vector3.new(0, 4, 0) 
+
+local fs = Instance.new("ParticleEmitter")
+fs.Name = "FinalSmoke"
+fs.Texture = "rbxassetid://18288724109"
+fs.Lifetime = NumberRange.new(0.8, 0.8)
+fs.LightEmission = 0
+fs.Rate = 0
+fs.Rotation = NumberRange.new(-360, 360)
+fs.RotSpeed = NumberRange.new(-360, 360)
+fs.Size = NumberSequence.new(5, 5)
+fs.Speed = NumberRange.new(75, 75)
+fs.SpreadAngle = Vector2.new(0, 360)
+fs.Transparency = NumberSequence.new(0, 0.2)
+fs.ZOffset = 0.01
+
+local smoke2 = Instance.new("ParticleEmitter")
+smoke2.Name = "Smoke2"
+smoke2.Texture = "rbxassetid://8945404215"
+smoke2.Drag = 0
+smoke2.Rate = 100
+smoke2.Lifetime = NumberRange.new(1, 1)
+smoke2.Rotation = NumberRange.new(-50, 50)
+smoke2.RotSpeed = NumberRange.new(-360, 360)
+smoke2.Size = NumberSequence.new(7, 7)
+smoke2.Speed = NumberRange.new(20, 20)
+smoke2.Transparency = NumberSequence.new(0.5911371, 1)
+smoke2.SpreadAngle = Vector2.new(360, 360)
+smoke2.ZOffset = 0.03
+smoke2.Color = ColorSequence.new(Color3.new(0, 0, 1), Color3.new(0, 0, 255))
+smoke2.LightInfluence = -1
+smoke2.LockedToPart = true
+
+local PE = Instance.new("ParticleEmitter")
+PE.Name = "Circle"
+PE.Texture = "rbxassetid://1460900719"
+PE.Drag = -1
+PE.Lifetime = NumberRange.new(0.2, 0.2)
+PE.LightEmission = 1
+PE.LockedToPart = true
+PE.Rate = 50
+PE.RotSpeed = NumberRange.new(-55, 55)
+PE.Rotation = NumberRange.new(0, 0)
+PE.Size = NumberSequence.new(34, 1)
+PE.Speed = NumberRange.new(10, 10)
+PE.SpreadAngle = Vector2.new(360, 360)
+PE.Color = ColorSequence.new(Color3.new(0, 0, 5), Color3.new(0, 0, 5), Color3.new(0, 0, 4))
+PE.Transparency = NumberSequence.new(0.7, 0.612732, 0.920424, 0.8125, 0, 0.89375, 1)
+PE.ZOffset = 4
+
+local ge = Instance.new("ParticleEmitter")
+ge.Color = ColorSequence.new(Color3.new(0, 0, 5), Color3.new(0, 0, 5), Color3.new(0, 0, 4))
+ge.Name = "GlitchEffect"
+ge.Texture = "rbxassetid://7948622114"
+ge.Drag = 0
+ge.Lifetime = NumberRange.new(0.1, 0.5)
+ge.LightEmission = 0
+ge.LockedToPart = false
+ge.Rate = 30
+ge.RotSpeed = NumberRange.new(0, 0)
+ge.Rotation = NumberRange.new(0, 0)
+ge.Size = NumberSequence.new(3, 1, 3)
+ge.Speed = NumberRange.new(0, 0)
+ge.SpreadAngle = Vector2.new(0, 0)
+ge.Transparency = NumberSequence.new(0.9, 1, 0.9)
+ge.ZOffset = 1
+
+local bpe = Instance.new("ParticleEmitter")
+bpe.Color = ColorSequence.new(Color3.new(0, 0, 2), Color3.new(0, 0, 2), Color3.new(0, 0, 3))
+bpe.Name = "BlockParticleEmitter"
+bpe.Texture = "rbxassetid://11971789697"
+bpe.Drag = 0
+bpe.Lifetime = NumberRange.new(1, 1)
+bpe.Rate = 100
+bpe.RotSpeed = NumberRange.new(-360, 360)
+bpe.Rotation = NumberRange.new(0, 0)
+bpe.Size = NumberSequence.new(5, 0.6, 2)
+bpe.Speed = NumberRange.new(45, 50)
+bpe.SpreadAngle = Vector2.new(360, 360)
+bpe.Transparency = NumberSequence.new(0, 1, 0)
+bpe.VelocityInheritance = 1
+bpe.ZOffset = -3
+
+local spe = Instance.new("ParticleEmitter")
+spe.Color = ColorSequence.new(Color3.new(0, 0, 3), Color3.new(0, 0.1, 2.5))
+spe.Name = "SparklesParticle"
+spe.Texture = "rbxassetid://669133414"
+spe.Drag = 10
+spe.Lifetime = NumberRange.new(1, 1.5)
+spe.Rate = 1145141919810
+spe.RotSpeed = NumberRange.new(-90, 90)
+spe.Rotation = NumberRange.new(-360, 360)
+spe.Size = NumberSequence.new(0.94915, 0.961, 2, 1.156)
+spe.Speed = NumberRange.new(60, 100)
+spe.SpreadAngle = Vector2.new(360, 360)
+spe.Transparency = NumberSequence.new(0, 0.5, 1, 0.5, 0)
+spe.ZOffset = 0.04
+
+local smoke3 = Instance.new("ParticleEmitter")
+smoke3.Color = ColorSequence.new(Color3.new(0, 0, 5), Color3.new(0, 0, 4.9))
+smoke3.Name = "Smoke3"
+smoke3.Texture = "rbxassetid://4770542473"
+smoke3.Drag = 2
+smoke3.Lifetime = NumberRange.new(0.25, 0.25)
+smoke3.LightEmission = -2
+smoke3.Rate = 80
+smoke3.RotSpeed = NumberRange.new(-50, 50)
+smoke3.Rotation = NumberRange.new(-360, 360)
+smoke3.Size = NumberSequence.new(0, 9, 4, 5.122, 9.8561, 6.85, 3.55, 8)
+smoke3.Speed = NumberRange.new(-10, 10)
+smoke3.SpreadAngle = Vector2.new(-100, 100)
+smoke3.Transparency = NumberSequence.new(0, 0, 0, 1, 0, 0)
+smoke3.ZOffset = 0.03
+
+local trail = Instance.new("ParticleEmitter")
+trail.Color = ColorSequence.new(Color3.new(0, 0, 3.5), Color3.new(0, 0, 5), Color3.new(0, 0.1, 1.5))
+trail.Name = "Trail"
+trail.Texture = "rbxassetid://37332909"
+trail.Drag = 0
+trail.Lifetime = NumberRange.new(1, 1)
+trail.Rate = 11451419198
+trail.RotSpeed = NumberRange.new(500, 500)
+trail.Rotation = NumberRange.new(0, 0)
+trail.Size = NumberSequence.new(0, 0.125, 0.17, 0.5, 1.35, 1, 0)
+trail.Speed = NumberRange.new(0.1, 0.1)
+trail.SpreadAngle = Vector2.new(30, 30)
+trail.ZOffset = -0.2
+
+local trail2 = trail:Clone()
+
+local smoke4 = Instance.new("ParticleEmitter")
+smoke4.Color = ColorSequence.new(Color3.new(0, 0, 2.8), Color3.new(0, 0, 4.2))
+smoke4.Name = "Smoke4"
+smoke4.Texture = "rbxassetid://8945404215"
+smoke4.Drag = 0
+smoke4.Lifetime = NumberRange.new(1, 1)
+smoke4.LightEmission = 0.5
+smoke4.Rate = 11451419
+smoke4.RotSpeed = NumberRange.new(-130, 130)
+smoke4.Rotation = NumberRange.new(0, 0)
+smoke4.Size = NumberSequence.new(5.125, 0.177056, 4.375, 0.240716, 5.625, 0.273873, 4.5, 0.877984, 3.5, 0.897215, 5.4375, 0.936339, 3.5, 1, 0)
+smoke4.Speed = NumberRange.new(3, 3)
+smoke4.SpreadAngle = Vector2.new(360, 360)
+smoke4.Transparency = NumberSequence.new(0, 0.881963, 0.3, 1, 0)
+smoke4.ZOffset = -0.3
+smoke4.LockedToPart = true
+
+local smoketrail = Instance.new("ParticleEmitter")
+smoketrail.Color = ColorSequence.new(Color3.new(0, 0, 2.6), Color3.new(0, 0, 5))
+smoketrail.Name = "SmokeTrail"
+smoketrail.Texture = "rbxassetid://8945404215"
+smoketrail.Drag = 0
+smoketrail.Lifetime = NumberRange.new(1, 1)
+smoketrail.LightEmission = 0.5
+smoketrail.Rate = 44444
+smoketrail.RotSpeed = NumberRange.new(-130, 130)
+smoketrail.Rotation = NumberRange.new(0, 0)
+smoketrail.Size = NumberSequence.new(0, 4, 1, 4, 0)
+smoketrail.Speed = NumberRange.new(3, 3)
+smoketrail.SpreadAngle = Vector2.new(360, 360)
+smoketrail.Transparency = NumberSequence.new(0, 0.881963, 0.3, 1, 0)
+smoketrail.ZOffset = -2
+
+local image = Instance.new("ParticleEmitter")
+image.Name = "Face"
+image.Texture = "rbxassetid://18272055094"  -- Sets the texture of the particles
+
+-- Particle properties
+image.Lifetime = NumberRange.new(0.05, 0.05)  -- Sets the lifetime range of the particles
+image.Drag = 10  -- Sets the air resistance of the particles
+image.Rate = 100 -- Sets the emission rate of particles per second
+image.Rotation = NumberRange.new(-10, 10)  -- Sets the initial rotation range of particles
+image.RotSpeed = NumberRange.new(-120, 120)  -- Sets the rotation speed range of particles
+image.Size = NumberSequence.new(0, 4.5, 0, 0.37931, 4.75, 0, 0.482759 )  -- Sets the size over time of the particles
+image.Speed = NumberRange.new(50, 50)  -- Sets the speed range of the particles
+image.SpreadAngle = Vector2.new(360, 360)  -- Sets the angle in degrees within which particles are emitted
+image.ZOffset = 4 -- Sets the offset along the Z-axis of the emitter
+
+-- Sets the color of the particles (RGB and transparency)
+image.Color = ColorSequence.new(Color3.new(0, 1, 1), Color3.new(1, 0, 1), Color3.new(0.388235, 0.388235, 0.388235))
+
+image.LightEmission = 0  -- Sets the amount of light emitted by the particles
+image.LockedToPart = true
+
+local nbpe = Instance.new("ParticleEmitter")
+nbpe.Name = "NearlyBlockParticle"
+nbpe.Texture = "rbxassetid://18330408798"
+nbpe.Drag = 20
+nbpe.Lifetime = NumberRange.new(0.5, 1)
+nbpe.Rate = 114514
+nbpe.RotSpeed = NumberRange.new(-180, 180)
+nbpe.Rotation = NumberRange.new(0, 0)
+nbpe.Size = NumberSequence.new(0, 2.2, 3.1, 2.156)
+nbpe.Speed = NumberRange.new(85, 120)
+nbpe.SpreadAngle = Vector2.new(360, 360)
+nbpe.Transparency = NumberSequence.new(0, 0.5, 1, 0.5, 0)
+nbpe.ZOffset = 0.01
+
+local am2 = Instance.new("Attachment")
+am2.Name = "Light"
+
+local PL = Instance.new("PointLight")
+PL.Name = "BigRange" .. PL.Name
+PL.Brightness = 50
+PL.Color = Color3.new(0, 0, 255)
+PL.Range = 60
+PL.Shadows = true
+
+local PL2 = Instance.new("PointLight")
+PL2.Name = "NearlyMidRange" .. PL2.Name
+PL2.Brightness = 100
+PL2.Color = Color3.new(0, 0, 255)
+PL2.Range = 45
+PL2.Shadows = true
+
+local PL3 = Instance.new("PointLight")
+PL3.Name = "MidRange" .. PL3.Name
+PL3.Brightness = 200
+PL3.Color = Color3.new(0, 0, 255)
+PL3.Range = 25
+PL3.Shadows = true
+
+local PL4 = Instance.new("PointLight")
+PL4.Name = "SmallRange" .. PL4.Name
+PL4.Brightness = 300
+PL4.Color = Color3.new(0, 0, 255)
+PL4.Range = 10
+PL4.Shadows = true
+
+local BBG = Instance.new("BillboardGui")
+BBG.Name = "Face"
+
+local face1 = Instance.new("ImageLabel")
+face1.Name = "Face1"
+face1.Image = "rbxassetid://18316920286"
+
+local face2 = Instance.new("ImageLabel")
+face2.Name = "Face2"
+face2.Image = "rbxassetid://18316949883"
+
+local face3 = Instance.new("ImageLabel")
+face3.Name = "Face3"
+face3.Image = "rbxassetid://18316981196"
+
+local face4 = Instance.new("ImageLabel")
+face4.Name = "Face4"
+face4.Image = "rbxassetid://18317026574"
+
+local face5 = Instance.new("ImageLabel")
+face5.Name = "Face5"
+face5.Image = "rbxassetid://18317044126"
+
+local face6 = Instance.new("ImageLabel")
+face6.Name = "Face6"
+face6.Image = "rbxassetid://18317026574"
+
+local face7 = Instance.new("ImageLabel")
+face7.Name = "Face7"
+face7.Image = "rbxassetid://18316920286"
+
+local face8 = Instance.new("ImageLabel")
+face8.Name = "Face8"
+face8.Image = "rbxassetid://18317069061"
+
+local face9 = Instance.new("ImageLabel")
+face9.Name = "Face9"
+face9.Image = "rbxassetid://18317260288"
+
+local sf = Instance.new("Attachment")
+sf.Name = "Sound"
+
+local sound = Instance.new("Sound")
+sound.Name = "Breakin sh"
+sound.EmitterSize = 1
+sound.Looped = true
+sound.MaxDistance = 1000
+sound.PlaybackSpeed = 0.5
+sound.Playing = true
+sound.RollOffMode = "Inverse"
+sound.SoundId = "rbxassetid://9125992545"
+sound.Volume = 10
+sound.Parent = sf
+
+local sound = Instance.new("Sound")
+sound.Name = "Breakin sh"
+sound.EmitterSize = 1
+sound.Looped = true
+sound.MaxDistance = 1000
+sound.PlaybackSpeed = 0.5
+sound.Playing = true
+sound.RollOffMode = "Inverse"
+sound.SoundId = "rbxassetid://4004052860"
+sound.Volume = 10
+sound.Parent = sf
+
+local sound = Instance.new("Sound")
+sound.Name = "Breakin sh"
+sound.EmitterSize = 1
+sound.Looped = true
+sound.MaxDistance = 1000
+sound.PlaybackSpeed = 0.4
+sound.Playing = true
+sound.RollOffMode = "Inverse"
+sound.SoundId = "rbxassetid://7142857558"
+sound.Volume = 10
+sound.Parent = sf
+
+local sound = Instance.new("Sound")
+sound.Name = "Breakin sh"
+sound.EmitterSize = 1
+sound.Looped = true
+sound.MaxDistance = 1000
+sound.PlaybackSpeed = 0.5
+sound.Playing = true
+sound.RollOffMode = "Inverse"
+sound.SoundId = "rbxassetid://7142843615"
+sound.Volume = 10
+sound.Parent = sf
+
+local sound = Instance.new("Sound")
+sound.Name = "Breakin sh"
+sound.EmitterSize = 1
+sound.Looped = true
+sound.MaxDistance = 1000
+sound.PlaybackSpeed = 1
+sound.Playing = true
+sound.RollOffMode = "Inverse"
+sound.SoundId = "rbxassetid://2612674531"
+sound.Volume = 5
+sound.Parent = sf
+
+local sound = Instance.new("Sound")
+sound.Name = "Breakin sh"
+sound.EmitterSize = 1
+sound.Looped = true
+sound.MaxDistance = 1000
+sound.PlaybackSpeed = 0.4
+sound.Playing = true
+sound.RollOffMode = "Inverse"
+sound.SoundId = "rbxassetid://2174790942"
+sound.Volume = 10
+sound.Parent = sf
+
+local sound = Instance.new("Sound")
+sound.Name = "Close Scream"
+sound.EmitterSize = 5
+sound.Looped = true
+sound.MaxDistance = 80
+sound.PlaybackSpeed = 0.9
+sound.Playing = true
+sound.RollOffMode = "LinearSquare"
+sound.SoundId = "rbxassetid://2738830850"
+sound.Volume = 3
+sound.Parent = sf
+
+local DSoundEffect = Instance.new("DistortionSoundEffect")
+DSoundEffect.Enabled = true
+DSoundEffect.Level = 0.6
+DSoundEffect.Priority = 100
+DSoundEffect.Parent = sound
+
+local RSoundEffect = Instance.new("ReverbSoundEffect")
+RSoundEffect.Enabled = true
+RSoundEffect.DecayTime = 1.5
+RSoundEffect.Density = 1
+RSoundEffect.Diffusion = 1
+RSoundEffect.DryLevel = -6
+RSoundEffect.Priority = 0
+RSoundEffect.WetLevel = 0
+RSoundEffect.Parent = sound
+
+local ESoundEffect = Instance.new("EqualizerSoundEffect")
+ESoundEffect.Enabled = true
+ESoundEffect.HighGain = 0
+ESoundEffect.LowGain = -20
+ESoundEffect.MidGain = -10
+ESoundEffect.Priority = 0
+ESoundEffect.Parent = sound
+
+local DSoundEffect = Instance.new("DistortionSoundEffect")
+DSoundEffect.Enabled = true
+DSoundEffect.Level = 0.4
+DSoundEffect.Priority = 0
+DSoundEffect.Parent = sound
+
+local sound = Instance.new("Sound")
+sound.Name = "Close Static"
+sound.EmitterSize = 5
+sound.Looped = true
+sound.MaxDistance = 150
+sound.PlaybackSpeed = 1.4
+sound.Playing = true
+sound.RollOffMode = "LinearSquare"
+sound.SoundId = "rbxassetid://5375147888"
+sound.Volume = 3
+sound.Parent = sf
+
+local DSoundEffect = Instance.new("DistortionSoundEffect")
+DSoundEffect.Enabled = true
+DSoundEffect.Level = 0.3
+DSoundEffect.Priority = 0
+DSoundEffect.Parent = sound
+
+local RSoundEffect = Instance.new("ReverbSoundEffect")
+RSoundEffect.Enabled = true
+RSoundEffect.DecayTime = 1.5
+RSoundEffect.Density = 1
+RSoundEffect.Diffusion = 1
+RSoundEffect.DryLevel = -6
+RSoundEffect.Priority = 0
+RSoundEffect.WetLevel = 0
+RSoundEffect.Parent = sound
+
+local sound = Instance.new("Sound")
+sound.Name = "Far Scream"
+sound.EmitterSize = 10
+sound.Looped = true
+sound.MaxDistance = 200
+sound.PlaybackSpeed = 1
+sound.Playing = true
+sound.RollOffMode = "LinearSquare"
+sound.SoundId = "rbxassetid://2738830850"
+sound.Volume = 3
+sound.Parent = sf
+
+local DSoundEffect = Instance.new("DistortionSoundEffect")
+DSoundEffect.Enabled = true
+DSoundEffect.Level = 0.6
+DSoundEffect.Priority = 100
+DSoundEffect.Parent = sound
+
+local RSoundEffect = Instance.new("ReverbSoundEffect")
+RSoundEffect.Enabled = true
+RSoundEffect.DecayTime = 1.5
+RSoundEffect.Density = 1
+RSoundEffect.Diffusion = 1
+RSoundEffect.DryLevel = -6
+RSoundEffect.Priority = 0
+RSoundEffect.WetLevel = 0
+RSoundEffect.Parent = sound
+
+local ESoundEffect = Instance.new("EqualizerSoundEffect")
+ESoundEffect.Enabled = true
+ESoundEffect.HighGain = 0
+ESoundEffect.LowGain = -20
+ESoundEffect.MidGain = -10
+ESoundEffect.Priority = 0
+ESoundEffect.Parent = sound
+
+local ESoundEffect = Instance.new("EqualizerSoundEffect")
+ESoundEffect.Enabled = true
+ESoundEffect.HighGain = -30.5
+ESoundEffect.LowGain = 0.1
+ESoundEffect.MidGain = -6.2
+ESoundEffect.Priority = 3
+ESoundEffect.Parent = sound
+
+local ESoundEffect = Instance.new("EqualizerSoundEffect")
+ESoundEffect.Enabled = true
+ESoundEffect.HighGain = 20.6
+ESoundEffect.LowGain = 4.6
+ESoundEffect.MidGain = -14.3
+ESoundEffect.Priority = 0
+ESoundEffect.Parent = sound
+
+local sound = Instance.new("Sound")
+sound.Name = "Far Static"
+sound.EmitterSize = 5
+sound.Looped = true
+sound.MaxDistance = 250
+sound.PlaybackSpeed = 1.5
+sound.Playing = true
+sound.RollOffMode = "LinearSquare"
+sound.SoundId = "rbxassetid://5375147888"
+sound.Volume = 3
+sound.Parent = sf
+
+local DSoundEffect = Instance.new("DistortionSoundEffect")
+DSoundEffect.Enabled = true
+DSoundEffect.Level = 0.3
+DSoundEffect.Priority = 0
+DSoundEffect.Parent = sound
+
+local RSoundEffect = Instance.new("ReverbSoundEffect")
+RSoundEffect.Enabled = true
+RSoundEffect.DecayTime = 1.5
+RSoundEffect.Density = 1
+RSoundEffect.Diffusion = 1
+RSoundEffect.DryLevel = -6
+RSoundEffect.Priority = 0
+RSoundEffect.WetLevel = 0
+RSoundEffect.Parent = sound
+
+local ESoundEffect = Instance.new("EqualizerSoundEffect")
+ESoundEffect.Enabled = true
+ESoundEffect.HighGain = -30.5
+ESoundEffect.LowGain = 0.1
+ESoundEffect.MidGain = -6.2
+ESoundEffect.Priority = 3
+ESoundEffect.Parent = sound
+
+local ESoundEffect = Instance.new("EqualizerSoundEffect")
+ESoundEffect.Enabled = true
+ESoundEffect.HighGain = -20.6
+ESoundEffect.LowGain = 4.6
+ESoundEffect.MidGain = -14.3
+ESoundEffect.Priority = 0
+ESoundEffect.Parent = sound
+
+local sound = Instance.new("Sound")
+sound.Name = "Close Scream"
+sound.EmitterSize = 5
+sound.Looped = true
+sound.MaxDistance = 50
+sound.PlaybackSpeed = 1.25
+sound.Playing = true
+sound.RollOffMode = "LinearSquare"
+sound.SoundId = "rbxassetid://9125712561"
+sound.Volume = 10
+sound.Parent = sf
+
+local ESoundEffect = Instance.new("EqualizerSoundEffect")
+ESoundEffect.Enabled = true
+ESoundEffect.HighGain = -30.5
+ESoundEffect.LowGain = 0.1
+ESoundEffect.MidGain = -6.2
+ESoundEffect.Priority = 3
+ESoundEffect.Parent = sound
+
+local sound = sound:Clone()
+sound.Parent = sf
+
+local sound = sound:Clone()
+sound.Parent = sf
+
+local sound = Instance.new("Sound")
+sound.Name = "Scream & Static"
+sound.EmitterSize = 1
+sound.Looped = true
+sound.MaxDistance = 400
+sound.PlaybackSpeed = 1.2
+sound.Playing = true
+sound.RollOffMode = "Inverse"
+sound.SoundId = "rbxassetid://8028069841"
+sound.Volume = 3
+sound.Parent = sf
+
+local PSSoundEffect = Instance.new("PitchShiftSoundEffect")
+PSSoundEffect.Enabled = true
+PSSoundEffect.Octave = 0.5
+PSSoundEffect.Priority = 0
+PSSoundEffect.Parent = sound
+
+local DSoundEffect = Instance.new("DistortionSoundEffect")
+DSoundEffect.Enabled = true
+DSoundEffect.Level = 0.75
+DSoundEffect.Priority = 0
+DSoundEffect.Parent = sound
+
+local sound = Instance.new("Sound")
+sound.Name = "Static"
+sound.EmitterSize = 2
+sound.Looped = true
+sound.MaxDistance = 400
+sound.PlaybackSpeed = 5
+sound.Playing = true
+sound.RollOffMode = "Inverse"
+sound.SoundId = "rbxassetid://4903742660"
+sound.Volume = 4
+sound.Parent = sf
+
+local PSSoundEffect = Instance.new("PitchShiftSoundEffect")
+PSSoundEffect.Enabled = true
+PSSoundEffect.Octave = 0.5
+PSSoundEffect.Priority = 0
+PSSoundEffect.Parent = sound
+
+local DSoundEffect = Instance.new("DistortionSoundEffect")
+DSoundEffect.Enabled = true
+DSoundEffect.Level = 0.75
+DSoundEffect.Priority = 0
+DSoundEffect.Parent = sound
+
+local sound = sound:Clone()
+sound.EmitterSize = 5
+sound.MaxDistance = 900
+sound.Volume = 5
+sound.Parent = sf
+
+local DSoundEffect = Instance.new("DistortionSoundEffect")
+DSoundEffect.Enabled = true
+DSoundEffect.Level = 0.25
+DSoundEffect.Priority = 10
+DSoundEffect.Parent = sound
+
+local sound = sound:Clone()
+sound.EmitterSize = 5
+sound.MaxDistance = 1000
+sound.Volume = 5
+sound.Parent = sf
+
+local sound = sound:Clone()
+sound.EmitterSize = 5
+sound.MaxDistance = 900
+sound.Volume = 4
+sound.Parent = sf
+
+local PSSoundEffect = Instance.new("PitchShiftSoundEffect")
+PSSoundEffect.Enabled = true
+PSSoundEffect.Octave = 0.5
+PSSoundEffect.Priority = 0
+PSSoundEffect.Parent = sound
+
+sf.Parent = SuperB60
+face1.Parent = BBG
+face2.Parent = BBG
+face3.Parent = BBG
+face4.Parent = BBG
+face5.Parent = BBG
+face6.Parent = BBG
+face7.Parent = BBG
+face8.Parent = BBG
+face9.Parent = BBG
+BBG.Parent = SuperB60
+PL.Parent = am2
+PL2.Parent = am2
+PL3.Parent = am2
+PL4.Parent = am2
+am2.Parent = SuperB60
+a.Name = "ParticleEmitter"
+a.Parent = SuperB60
+fs.Parent = a
+PE.Parent = a
+ge.Parent = a
+bpe.Parent = a
+spe.Parent = a
+smoke3.Parent = a
+trail.Parent = a
+trail2.Parent = a
+smoke4.Parent = a
+smoketrail.Parent = a
+nbpe.Parent = a
+SuperB60.Parent = Workspace
+smoke2.Parent = a  -- Attaches the ParticleEmitter to the Attachment
+image.Parent = a
+fs.Rate = 100
+local wut = 0 -- wait for change face's seconds
+while true do 
+image.Texture = "rbxassetid://18316920286"
+wait(wut)
+image.Texture = "rbxassetid://18316949883"
+wait(wut)
+image.Texture = "rbxassetid://18316981196"
+wait(wut)
+image.Texture = "rbxassetid://18317026574"
+wait(wut)
+image.Texture = "rbxassetid://18317044126"
+wait(wut)
+image.Texture = "rbxassetid://18317026574"
+wait(wut)
+image.Texture = "rbxassetid://18316920286"
+wait(wut)
+image.Texture = "rbxassetid://18317069061"
+wait(wut)
+image.Texture = "rbxassetid://18317260288"
+wait(wut)
+end
+
+---====== Debug ======---
+ 
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+end
+ 
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawned")
+---====== Load achievement giver ======---
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+ 
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Fair Match",
+    Desc = "Hi",
+    Reason = "Encounter Matcher",
+    Image = "rbxassetid://104129183809839"
+})
+end
+ 
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+ 
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+ 
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+ 
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+ 
+entity.Debug.OnDeath = function()
+    print("Player has died")
+local jumpscare = loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/NIDO-HUD//main/Custom-jumpscare/Source"))()
+local JS = jumpscare.Create({
+    image = {
+        Asset = "rbxassetid://104129183809839"
+    },
+    Audio = {
+        Asset = "rbxassetid://0",
+        AC = false
+    }
+})
+JS:Run()
+wait(0.001)
+firesignal(game.ReplicatedStorage.RemotesFolder.DeathHint.OnClientEvent, {"You died to Matcher", "Running will not help, try hiding when you know it's near", "Pay attention for cues that hint it's arrival"}, "Blue") -- "Blue" or "Yellow"
+end
+ 
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+ 
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+ 
+---====== Run entity ======---
+ 
+Spawner.runEntity(entity)
+
+end
