@@ -32,6 +32,13 @@ achievementGiver({
     Image = "rbxassetid://11278229112"
 })
 
+coroutine.wrap(function()
+    while true do
+        wait(35)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/refs/heads/main/Entities/Shocker"))()
+    end
+end)()
+
 -- chainsmoker 
 coroutine.wrap(function()
     while true do
@@ -590,13 +597,6 @@ end)
 ---====== Run entity ======---
 
 entity:Run()
-    end
-end)()
-
-coroutine.wrap(function()
-    while true do
-        wait(35)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/refs/heads/main/Entities/Shocker"))()
     end
 end)()
 
