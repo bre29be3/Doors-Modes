@@ -89,12 +89,12 @@ local entity = spawner.Create({
 	},
 	Damage = {
 		Enabled = true,
-		Range = 50,
-		Amount = 50
+		Range = 40,
+		Amount = 125
 	},
 	Crucifixion = {
 		Enabled = true,
-		Range = 40,
+		Range = 50,
 		Resist = false,
 		Break = true
 	},
@@ -206,7 +206,7 @@ local entity = spawner.Create({
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 200,
+		Speed = 100,
 		Delay = 2,
 		Reversed = true
 	},
@@ -219,12 +219,12 @@ local entity = spawner.Create({
 	},
 	Damage = {
 		Enabled = true,
-		Range = 100,
-		Amount = 125
+		Range = 70,
+		Amount = 20
 	},
 	Crucifixion = {
 		Enabled = true,
-		Range = 40,
+		Range = 80,
 		Resist = false,
 		Break = true
 	},
