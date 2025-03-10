@@ -56,7 +56,7 @@ end)()
 
 coroutine.wrap(function()
     while true do
-        wait(90)
+        wait(100)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Darker-TheDarkestGuy/Scripts/refs/heads/main/Stare"))()
@@ -66,7 +66,7 @@ end)()
 -- chainsmoker 
 coroutine.wrap(function()
     while true do
-        wait(math.random(30,80))
+        wait(170)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(5)
 local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
@@ -192,12 +192,11 @@ end)
 entity:Run()
     end
 end)()
-wait(100)
 
 -- chainsmoker 
 coroutine.wrap(function()
     while true do
-        wait(math.random(30,80))
+        wait(250)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(5)
 local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
@@ -325,7 +324,7 @@ end)()
 
 coroutine.wrap(function()
     while true do
-        wait(121)
+        wait(100)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
         loadstring(game:HttpGet("https://github.com/PABMAXICHAC/doors-monsters-scripts/raw/main/blinkcrux"))()
@@ -334,7 +333,7 @@ end)()
 
 coroutine.wrap(function()
     while true do
-        wait(213)
+        wait(270)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
@@ -345,7 +344,7 @@ loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
 
 coroutine.wrap(function()
     while true do
-        wait(390)
+        wait(200)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://pastefy.app/1xxpTxo3/raw'))()
@@ -356,7 +355,7 @@ end)()
 
 coroutine.wrap(function()
     while true do
-        wait(80)
+        wait(250)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/main/DreadEnity"))()
@@ -368,7 +367,7 @@ end)()
 -- chainsmoker 
 coroutine.wrap(function()
     while true do
-        wait(math.random(30,80))
+        wait(300)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(5)
 local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
@@ -398,7 +397,7 @@ local entity = spawner.Create({
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 220,
+		Speed = 800,
 		Delay = 35,
 		Reversed = false
 	},
@@ -411,12 +410,12 @@ local entity = spawner.Create({
 	},
 	Damage = {
 		Enabled = true,
-		Range = 40,
+		Range = 80,
 		Amount = 125
 	},
 	Crucifixion = {
 		Enabled = true,
-		Range = 40,
+		Range = 90,
 		Resist = false,
 		Break = true
 	},
@@ -493,7 +492,7 @@ end)
 entity:Run()
     end
 end)()
-wait(213)
+wait(250)
 
 -- chainsmoker 
 coroutine.wrap(function()
@@ -626,7 +625,7 @@ end)()
 
 coroutine.wrap(function()
     while true do
-        wait(150)
+        wait(200)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/bre29be3/J/refs/heads/main/Idkanythingaboutthis'))()
@@ -640,4 +639,37 @@ coroutine.wrap(function()
         wait(0)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/bre29be3/J/refs/heads/main/236'))()
     end
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(215)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bre29be3/J/refs/heads/main/Matcher"))()
+
+end
+
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(200)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanggphuc/Entity-obfuscate/refs/heads/main/Claim.lua%20(1).txt"))()
+
+end
+
+end)()
+
+coroutine.wrap(function()
+    while true do
+        wait(150)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanggphuc/Entity-obfuscate/refs/heads/main/EndlessDoors/Entity/obfuscate/Oversser.txt.lua"))()
+
+end
+
 end)()
