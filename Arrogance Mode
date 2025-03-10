@@ -4,6 +4,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teilsthebfdifan/sugge
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAcceleration/Comet-Development/refs/heads/main/Doors/Game/PlayerHealthbars.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bre29be3/J/refs/heads/main/Floor2"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MuhXd/DoorSuff/main/OtherSuff/Sprint"))()
+--Cave ambience
+local sound = Instance.new("Sound")
+
+sound.SoundId = "rbxassetid://273398061"
+
+sound.Volume = 1
+
+sound.Looped = true
+
+sound:Play()
+
+sound.Parent = workspace
 
 ---====== Load achievement giver ======---
 local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
