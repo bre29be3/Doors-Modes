@@ -22,10 +22,10 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
 
 ---====== Display achievement ======---
 achievementGiver({
-    Title = "Arrogance Mode",
+    Title = "Superiority Mode",
     Desc = "What is happening...?",
-    Reason = "Executed Arrogance Mode",
-    Image = "rbxassetid://11278229112"
+    Reason = "Executed Superiority Mode",
+    Image = "rbxassetid://11319842582"
 })
 local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
 local intro = shut:Clone()
