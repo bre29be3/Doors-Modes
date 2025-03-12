@@ -49,7 +49,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 ---====== Create entity ======---
  
 local entity = Spawner.createEntity({
-    CustomName = "Hunger/Hungered",
+    CustomName = "Hunger",
     Model = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/hunger.rbxm?raw=true",
     Speed = 300,
     MoveDelay = 2,
@@ -91,10 +91,10 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
  
 ---====== Display achievement ======---
 achievementGiver({
-    Title = "Too smart",
-    Desc = "ULTRA pro gamer",
-    Reason = "Encounter Hunger/Hungered",
-    Image = "rbxassetid://17787953833"
+    Title = "Hunger...",
+    Desc = "RUN RUN RUN..",
+    Reason = "Encounter Hunger",
+    Image = "rbxassetid://11157934736"
 })
 end
  
