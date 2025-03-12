@@ -45,4 +45,4 @@ local function caption(text)
 		newText:Destroy()
 	end)
 end
-caption("Reluctance Mode Actived!")
+caption("Astonishment Mode Actived!")
