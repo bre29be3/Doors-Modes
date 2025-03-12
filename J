@@ -1,0 +1,18 @@
+
+local RunService = game:GetService("RunService")
+local Material = Enum.Material.CorrodedMetal
+
+local function changeMaterial()
+    for _, part in pairs(workspace:GetDescendants()) do
+        if part:IsA("BasePart") then
+            part.Material = Material
+        end
+    end
+end
+local function onStepped()
+    changeMaterial()
+end
+while true do
+    wait(1)
+    onStepped()
+end
