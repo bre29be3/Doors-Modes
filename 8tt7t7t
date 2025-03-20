@@ -1,0 +1,3938 @@
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption(not Alll Entity,Time for Dreadty,true)
+
+--SpawnDreadty
+coroutine.wrap(function()
+wait()
+if not (workspace.CurrentRoomsFindFirstChild(2)) then
+
+local Lighting = gameGetService(Lighting)
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.2
+Lighting.FogEnd = 60
+Lighting.FogStart = 5
+Lighting.FogColor = Color3.new(0, 0, 0)
+
+function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName...mp3, gameHttpGet(url))
+    return (getcustomasset or getsynasset)(FileName...mp3)
+end
+
+function CustomGitSound(soundlink, vol, filename)
+    local Sound = Instance.new(Sound)
+    Sound.SoundId = GitAud(soundlink, filename)
+    Sound.Parent = workspace
+    Sound.Volume = 3
+    SoundPlay()
+end
+
+CustomGitSound(httpsgithub.comhuyhoanphuctesthshsblobmainDOORS%20UNUSED%20OST%20-%20Courtyard%20Entrance.mp3raw=true, 1, axvxufufhfgtcOmg)
+
+local Du = gameGetObjects(rbxassetid96223289630255)[1]
+
+Du.Parent = Workspace
+
+wait()
+if Du then
+
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+local spawner = loadstring(gameHttpGet(httpsraw.githubusercontent.comYuzixser-ScriptFunctionmainVynixus_SpawnV2.lua))()
+
+---====== Create entity ======---
+
+local entity = spawner.Create({
+	Entity = {
+		Name = DreadTy,
+		Asset = rbxassetid16834807322,
+		HeightOffset = 340
+	},
+	Lights = {
+		Flicker = {
+			Enabled = false,
+			Duration = 5
+		},
+		Shatter = false,
+		Repair = false
+	},
+	Earthquake = {
+		Enabled = false
+	},
+	CameraShake = {
+		Enabled = true,
+		Range = 150,
+		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
+	},
+	Movement = {
+		Speed = 150,
+		Delay = math.random(6, 6.5),
+		Reversed = false
+	},
+	Rebounding = {
+		Enabled = false,
+		Type = Ambush,
+		Min = 1,
+		Max = 1,
+		Delay = 2.5
+	},
+	Damage = {
+		Enabled = false,
+		Range = 20,
+		Amount = 0.001
+	},
+	Crucifixion = {
+		Enabled = true,
+		Range = 40,
+		Resist = false,
+		Break = true
+	},
+	Death = {
+		Type = Guiding,
+		Hints = {You die to Matcher, ..., ..., ...},
+		Cause = 
+	}
+})
+
+---====== Debug entity ======---
+
+entitySetCallback(OnSpawned, function()
+    print(Entity has spawned)
+   game.Players.localPlayer.PlayerGui.MainUI.MainFrame.GlitchCaption.Desc.Text = 
+   game.Players.localPlayer.PlayerGui.MainUI.MainFrame.GlitchCaption.Title.Text = 
+   
+   game.Players.localPlayer.PlayerGui.MainUI.MainFrame.GlitchCaption.Voter.Text = 
+
+game.Players.localPlayer.PlayerGui.MainUI.MainFrame.GlitchCaption.Visible = true
+game.Players.localPlayer.PlayerGui.MainUI.MainFrame.GlitchCaption.Text =Dreadty Phase1
+
+----StartHorrorDreadTy
+
+--Destroy1
+coroutine.wrap(function()
+while true do wait()
+Workspace[Monter2]Destroy()
+end
+end)()
+
+--Destroy2
+coroutine.wrap(function()
+while true do wait()
+Workspace[The Monter2]Destroy()
+end
+end)()
+
+--Destroy3
+coroutine.wrap(function()
+while true do wait()
+Workspace[Shocker]Destroy()
+end
+end)()
+
+--Destroy4
+coroutine.wrap(function()
+while true do wait()
+Workspace[kkkAmbush]Destroy()
+end
+end)()
+
+--Destroy5
+coroutine.wrap(function()
+while true do wait()
+Workspace[Trauma]Destroy()
+end
+end)()
+
+--Destroy6
+coroutine.wrap(function()
+while true do wait()
+Workspace[laughing ambush]Destroy()
+end
+end)()
+
+--Destroy7
+coroutine.wrap(function()
+while true do wait()
+Workspace[Barrage]Destroy()
+end
+end)()
+
+--Destroy8
+coroutine.wrap(function()
+while true do wait()
+Workspace[A-120]Destroy()
+end
+end)()
+
+--Destroy9
+coroutine.wrap(function()
+while true do wait()
+Workspace[A-15]Destroy()
+end
+end)()
+
+--Destroy10
+coroutine.wrap(function()
+while true do wait()
+Workspace[A-35]Destroy()
+end
+end)()
+
+--Destroy11
+coroutine.wrap(function()
+while true do wait()
+Workspace[Ripper]Destroy()
+end
+end)()
+
+--Destroy12
+coroutine.wrap(function()
+while true do wait()
+Workspace[Rippera]Destroy()
+end
+end)()
+
+--Destroy13
+coroutine.wrap(function()
+while true do wait()
+Workspace[Depth]Destroy()
+end
+end)()
+
+--Destroy14
+coroutine.wrap(function()
+while true do wait()
+Workspace[FrostBite]Destroy()
+end
+end)()
+
+--Destroy15
+coroutine.wrap(function()
+while true do wait()
+Workspace[Rebound]Destroy()
+end
+end)()
+
+--Destroy16
+coroutine.wrap(function()
+while true do wait()
+Workspace[G95]Destroy()
+end
+end)()
+
+--Destroy17
+coroutine.wrap(function()
+while true do wait()
+Workspace[Maniack Rush]Destroy()
+end
+end)()
+
+--Destroy18
+coroutine.wrap(function()
+while true do wait()
+Workspace[ClockD]Destroy()
+end
+end)()
+
+--Destroy19
+coroutine.wrap(function()
+while true do wait()
+Workspace[GrandFatherClockDread]Destroy()
+end
+end)()
+
+--Destroy20
+coroutine.wrap(function()
+while true do wait()
+Workspace[Wh1t3]Destroy()
+end
+end)()
+
+end)
+
+entitySetCallback(OnStartMoving, function()
+    print(Entity has started moving)
+    game.workspace.SoundDestroy()
+    
+    game.Workspace.DreadTyDestroy()
+    wait(1)
+						  wait(0.2)
+						function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName...mp3, gameHttpGet(url))
+    return (getcustomasset or getsynasset)(FileName...mp3)
+end
+
+function CustomGitSound(soundlink, vol, filename)
+    local Souand = Instance.new(Sound)
+    Souand.SoundId = GitAud(soundlink, filename)
+    Souand.Parent = Workspace
+    Souand.Looped = true
+    Souand.Volume = 0.5
+    SouandPlay()
+end
+
+CustomGitSound(httpsgithub.comhuyhoanphucgfblobmainDOORS%20Roblox%20OST_%20The%20Figure%20Enraged.mp3raw=true, 1, DOORSRobloxOSTTheFigureEnraged)
+
+		--Dreadtyu
+coroutine.wrap(function()
+local Speed = 7
+
+local Workspace = gameGetService(Workspace)
+local Players = gameGetService(Players)
+local runService = gameGetService(RunService)
+local Debris = gameGetService(Debris)local Player = Players.LocalPlayer
+local Character = Player.Character or Player.CharacterAddedWait()
+
+local Dummy = gameGetObjects(rbxassetid96223289630255)[1]
+local Wicked = gameGetObjects(rbxassetid16834807322)[1]
+Dummy.Parent = workspace
+Wicked.Parent = workspace
+
+local primary_part = WickedFindFirstChildWhichIsA(BasePart) or WickedFindFirstChildWhichIsA(Part)
+
+Dummy.HumanoidRootPart.CFrame = Character.HumanoidRootPart.CFrame + Vector3.new(0, 0, 2350)
+
+local function followPlayer()
+    local Direction = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).unit
+    Dummy.HumanoidRootPart.Velocity = Direction  Speed
+    Dummy.HumanoidRootPart.CFrame = CFrame.new(Dummy.HumanoidRootPart.Position, Character.HumanoidRootPart.Position)
+end
+
+local event = runService.RenderSteppedConnect(function()
+if WickedIsDescendantOf(workspace) and DummyIsDescendantOf(workspace) and DummyFindFirstChild(HumanoidRootPart) and DummyFindFirstChild(Humanoid).Health  0 then
+local Distance = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).magnitude
+
+if Distance = math.huge then
+followPlayer()
+end
+
+WickedPivotTo(Dummy.HumanoidRootPart.CFrame)
+end
+end)
+
+local function canSeeTarget(target,size)
+					if killed == true then
+						return
+					end
+					local origin = Wicked.RushNew.Position
+					local direction = (target.HumanoidRootPart.Position - Wicked.RushNew.Position).unit  size
+					local ray = Ray.new(origin, direction)
+
+					local hit, pos = workspaceFindPartOnRay(ray, Wicked.RushNew)
+
+
+					if hit then
+						if hitIsDescendantOf(target) then
+							killed = true
+							return true
+						end
+					else
+						return false
+					end
+				end
+				
+--notHiding
+coroutine.wrap(function()
+				spawn(function()
+					while Wicked ~= nil do wait(0.2)
+						local v = game.Players.LocalPlayer
+						local parent = script.Parent
+						if not v.CharacterGetAttribute(Hiding) then
+							if canSeeTarget(v.Character,10) then
+								v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(100)
+eventDisconnect()
+
+Workspace.DreadDestroy()
+
+				gameGetService(ReplicatedStorage).GameStats[Player_.. game.Players.LocalPlayer.Name].Total.DeathCause.Value = Dread
+				
+          end
+     end
+end
+end)				
+end)()
+
+--Hiding
+coroutine.wrap(function()
+while Wicked  do wait(0.2)
+						local v = game.Players.LocalPlayer
+						
+if v.CharacterGetAttribute(Hiding) then
+	wait()
+eventDisconnect()
+
+wait(5)
+Workspace.DreadDestroy()
+wait(1)						
+if v.CharacterGetAttribute(Hiding) then							
+								v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(10000)
+								end
+						  wait()
+						
+loadstring(gameHttpGet(httpsraw.githubusercontent.comhuyhoanphucgfrefsheadsmainDread%20666))()
+
+end
+end
+end)()
+
+end)()
+
+--Dreadtyu Phase 2
+coroutine.wrap(function()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+
+if Workspace.Dread then
+Workspace.DreadDestroy()
+wait()
+Workspace.SoundDestroy()
+wait()
+Workspace.DummyDestroy()
+end
+
+function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName...mp3, gameHttpGet(url))
+    return (getcustomasset or getsynasset)(FileName...mp3)
+end
+
+function CustomGitSound(soundlink, vol, filename)
+    local Sound = Instance.new(Sound)
+    Sound.SoundId = GitAud(soundlink, filename)
+    Sound.Parent = workspace
+    Sound.Volume = 1
+    Sound.Looped = true
+    SoundPlay()
+end
+
+CustomGitSound(httpsgithub.comhuyhoanphucygfblobmainvideoplayback%20(10)_001.mp3raw=true, 1, axvxufufhfgthhhshgshhgscOmg)
+
+game.Players.localPlayer.PlayerGui.MainUI.MainFrame.GlitchCaption.Text =Dreadty Phase2
+
+local Speed = 12
+
+local Workspace = gameGetService(Workspace)
+local Players = gameGetService(Players)
+local runService = gameGetService(RunService)
+local Debris = gameGetService(Debris)local Player = Players.LocalPlayer
+local Character = Player.Character or Player.CharacterAddedWait()
+
+local Dummy = gameGetObjects(rbxassetid96223289630255)[1]
+local Wicked = gameGetObjects(rbxassetid16834807322)[1]
+Dummy.Parent = workspace
+Wicked.Parent = workspace
+
+local primary_part = WickedFindFirstChildWhichIsA(BasePart) or WickedFindFirstChildWhichIsA(Part)
+
+Dummy.HumanoidRootPart.CFrame = Character.HumanoidRootPart.CFrame + Vector3.new(0, 0, 2350)
+
+local function followPlayer()
+    local Direction = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).unit
+    Dummy.HumanoidRootPart.Velocity = Direction  Speed
+    Dummy.HumanoidRootPart.CFrame = CFrame.new(Dummy.HumanoidRootPart.Position, Character.HumanoidRootPart.Position)
+end
+
+local event = runService.RenderSteppedConnect(function()
+if WickedIsDescendantOf(workspace) and DummyIsDescendantOf(workspace) and DummyFindFirstChild(HumanoidRootPart) and DummyFindFirstChild(Humanoid).Health  0 then
+local Distance = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).magnitude
+
+if Distance = math.huge then
+followPlayer()
+end
+
+WickedPivotTo(Dummy.HumanoidRootPart.CFrame)
+end
+end)
+
+local function canSeeTarget(target,size)
+					if killed == true then
+						return
+					end
+					local origin = Wicked.RushNew.Position
+					local direction = (target.HumanoidRootPart.Position - Wicked.RushNew.Position).unit  size
+					local ray = Ray.new(origin, direction)
+
+					local hit, pos = workspaceFindPartOnRay(ray, Wicked.RushNew)
+
+
+					if hit then
+						if hitIsDescendantOf(target) then
+							killed = true
+							return true
+						end
+					else
+						return false
+					end
+				end
+				
+--notHiding
+coroutine.wrap(function()
+				spawn(function()
+					while Wicked ~= nil do wait(0.2)
+						local v = game.Players.LocalPlayer
+						local parent = script.Parent
+						if not v.CharacterGetAttribute(Hiding) then
+							if canSeeTarget(v.Character,10) then
+								v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(100)
+eventDisconnect()
+
+Workspace.DreadDestroy()
+
+				gameGetService(ReplicatedStorage).GameStats[Player_.. game.Players.LocalPlayer.Name].Total.DeathCause.Value = Dread
+				
+          end
+     end
+end
+end)				
+end)()
+
+--Hiding
+coroutine.wrap(function()
+while Wicked  do wait(0.2)
+						local v = game.Players.LocalPlayer
+						
+if v.CharacterGetAttribute(Hiding) then
+	wait()
+eventDisconnect()
+
+wait(5)
+Workspace.DreadDestroy()
+wait(1)						
+if v.CharacterGetAttribute(Hiding) then							
+								v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(10000)
+								end
+						  wait()
+						
+loadstring(gameHttpGet(httpsgithub.comhuyhoanphucgfrawrefsheadsmainDreadty%20Phase2))()
+
+end
+end
+end)()
+
+--Destroy all entity
+coroutine.wrap(function()
+while true do wait()
+loadstring(gameHttpGet(httpspastefy.appDo81uu9Vraw))() 
+end
+end)()
+
+end)()
+
+--Dreadtyu Phase 3
+coroutine.wrap(function()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+
+if Workspace.Dread then
+Workspace.DreadDestroy()
+wait()
+Workspace.SoundDestroy()
+wait()
+Workspace.DummyDestroy()
+end
+
+function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName...mp3, gameHttpGet(url))
+    return (getcustomasset or getsynasset)(FileName...mp3)
+end
+
+function CustomGitSound(soundlink, vol, filename)
+    local Sound = Instance.new(Sound)
+    Sound.SoundId = GitAud(soundlink, filename)
+    Sound.Parent = workspace
+    Sound.Volume = 1
+    Sound.Looped = true
+    SoundPlay()
+end
+
+CustomGitSound(httpsgithub.comhuyhoanphucygfblobmainvideoplayback%20(10)_002.mp3raw=true, 1, axvxufufhfgthhhshgsbbgvvvhhgscOmg)
+
+game.Players.localPlayer.PlayerGui.MainUI.MainFrame.GlitchCaption.Text =Dreadty Phase3
+
+local Speed = 14
+
+local Workspace = gameGetService(Workspace)
+local Players = gameGetService(Players)
+local runService = gameGetService(RunService)
+local Debris = gameGetService(Debris)local Player = Players.LocalPlayer
+local Character = Player.Character or Player.CharacterAddedWait()
+
+local Dummy = gameGetObjects(rbxassetid96223289630255)[1]
+local Wicked = gameGetObjects(rbxassetid16834807322)[1]
+Dummy.Parent = workspace
+Wicked.Parent = workspace
+
+local primary_part = WickedFindFirstChildWhichIsA(BasePart) or WickedFindFirstChildWhichIsA(Part)
+
+Dummy.HumanoidRootPart.CFrame = Character.HumanoidRootPart.CFrame + Vector3.new(0, 0, 1850)
+
+local function followPlayer()
+    local Direction = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).unit
+    Dummy.HumanoidRootPart.Velocity = Direction  Speed
+    Dummy.HumanoidRootPart.CFrame = CFrame.new(Dummy.HumanoidRootPart.Position, Character.HumanoidRootPart.Position)
+end
+
+local event = runService.RenderSteppedConnect(function()
+if WickedIsDescendantOf(workspace) and DummyIsDescendantOf(workspace) and DummyFindFirstChild(HumanoidRootPart) and DummyFindFirstChild(Humanoid).Health  0 then
+local Distance = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).magnitude
+
+if Distance = math.huge then
+followPlayer()
+end
+
+WickedPivotTo(Dummy.HumanoidRootPart.CFrame)
+end
+end)
+
+local function canSeeTarget(target,size)
+					if killed == true then
+						return
+					end
+					local origin = Wicked.RushNew.Position
+					local direction = (target.HumanoidRootPart.Position - Wicked.RushNew.Position).unit  size
+					local ray = Ray.new(origin, direction)
+
+					local hit, pos = workspaceFindPartOnRay(ray, Wicked.RushNew)
+
+
+					if hit then
+						if hitIsDescendantOf(target) then
+							killed = true
+							return true
+						end
+					else
+						return false
+					end
+				end
+				
+--notHiding
+coroutine.wrap(function()
+				spawn(function()
+					while Wicked ~= nil do wait(0.2)
+						local v = game.Players.LocalPlayer
+						local parent = script.Parent
+						if not v.CharacterGetAttribute(Hiding) then
+							if canSeeTarget(v.Character,10) then
+								v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(100)
+eventDisconnect()
+
+Workspace.DreadDestroy()
+
+				gameGetService(ReplicatedStorage).GameStats[Player_.. game.Players.LocalPlayer.Name].Total.DeathCause.Value = Dread
+				
+          end
+     end
+end
+end)				
+end)()
+
+--Hiding
+coroutine.wrap(function()
+while Wicked  do wait(0.2)
+						local v = game.Players.LocalPlayer
+						
+if v.CharacterGetAttribute(Hiding) then
+	wait()
+eventDisconnect()
+
+wait(5)
+Workspace.DreadDestroy()
+wait(1)						
+if v.CharacterGetAttribute(Hiding) then							
+								v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(10000)
+								end
+						  wait()
+						
+loadstring(gameHttpGet(httpsgithub.comhuyhoanphucgfrawrefsheadsmainDreadty%20Phase3))()
+
+end
+end
+end)()
+
+--Destroy all entity
+coroutine.wrap(function()
+while true do wait()
+loadstring(gameHttpGet(httpspastefy.appDo81uu9Vraw))() 
+end
+end)()
+
+end)()
+
+--Dreadtyu Phase 4
+coroutine.wrap(function()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+
+if Workspace.Dread then
+Workspace.DreadDestroy()
+wait()
+Workspace.SoundDestroy()
+wait()
+Workspace.DummyDestroy()
+end
+
+function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName...mp3, gameHttpGet(url))
+    return (getcustomasset or getsynasset)(FileName...mp3)
+end
+
+function CustomGitSound(soundlink, vol, filename)
+    local Sound = Instance.new(Sound)
+    Sound.SoundId = GitAud(soundlink, filename)
+    Sound.Parent = workspace
+    Sound.Volume = 1
+    Sound.Looped = true
+    SoundPlay()
+end
+
+CustomGitSound(httpsgithub.comhuyhoanphucygfblobmainvideoplayback%20(10)_002.mp3raw=true, 1, axvxufufhfgthhhshgsbbgvvvhhgscOmg)
+
+local Speed = 16
+
+local Workspace = gameGetService(Workspace)
+local Players = gameGetService(Players)
+local runService = gameGetService(RunService)
+local Debris = gameGetService(Debris)local Player = Players.LocalPlayer
+local Character = Player.Character or Player.CharacterAddedWait()
+
+local Dummy = gameGetObjects(rbxassetid96223289630255)[1]
+local Wicked = gameGetObjects(rbxassetid16834807322)[1]
+Dummy.Parent = workspace
+Wicked.Parent = workspace
+
+local primary_part = WickedFindFirstChildWhichIsA(BasePart) or WickedFindFirstChildWhichIsA(Part)
+
+Dummy.HumanoidRootPart.CFrame = Character.HumanoidRootPart.CFrame + Vector3.new(0, 0, 1850)
+
+local function followPlayer()
+    local Direction = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).unit
+    Dummy.HumanoidRootPart.Velocity = Direction  Speed
+    Dummy.HumanoidRootPart.CFrame = CFrame.new(Dummy.HumanoidRootPart.Position, Character.HumanoidRootPart.Position)
+end
+
+local event = runService.RenderSteppedConnect(function()
+if WickedIsDescendantOf(workspace) and DummyIsDescendantOf(workspace) and DummyFindFirstChild(HumanoidRootPart) and DummyFindFirstChild(Humanoid).Health  0 then
+local Distance = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).magnitude
+
+if Distance = math.huge then
+followPlayer()
+end
+
+WickedPivotTo(Dummy.HumanoidRootPart.CFrame)
+end
+end)
+
+local function canSeeTarget(target,size)
+					if killed == true then
+						return
+					end
+					local origin = Wicked.RushNew.Position
+					local direction = (target.HumanoidRootPart.Position - Wicked.RushNew.Position).unit  size
+					local ray = Ray.new(origin, direction)
+
+					local hit, pos = workspaceFindPartOnRay(ray, Wicked.RushNew)
+
+
+					if hit then
+						if hitIsDescendantOf(target) then
+							killed = true
+							return true
+						end
+					else
+						return false
+					end
+				end
+
+--notHiding
+coroutine.wrap(function()
+				spawn(function()
+					while Wicked ~= nil do wait(0.2)
+						local v = game.Players.LocalPlayer
+						local parent = script.Parent
+							if canSeeTarget(v.Character,10) then
+					   		if v.CharacterGetAttribute(Hiding) then
+			   					v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(10000)
+				        end
+		     end
+  	end
+end)
+end)()
+
+--notHiding
+coroutine.wrap(function()
+				spawn(function()
+					while Wicked ~= nil do wait(0.2)
+						local v = game.Players.LocalPlayer
+						local parent = script.Parent
+						if not v.CharacterGetAttribute(Hiding) then
+							if canSeeTarget(v.Character,10) then
+								v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(100)
+eventDisconnect()
+
+Workspace.DreadDestroy()
+
+				gameGetService(ReplicatedStorage).GameStats[Player_.. game.Players.LocalPlayer.Name].Total.DeathCause.Value = Dread
+				
+          end
+     end
+end
+end)				
+end)()
+
+--Hiding
+coroutine.wrap(function()
+while Wicked  do wait(0.2)
+						local v = game.Players.LocalPlayer
+						
+if v.CharacterGetAttribute(Hiding) then
+	wait()
+eventDisconnect()
+
+wait(2)
+Workspace.DreadDestroy()
+wait(1)						
+if v.CharacterGetAttribute(Hiding) then							
+								v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(10000)
+								end
+						  wait(1)
+						
+loadstring(gameHttpGet(httpsgithub.comhuyhoanphucgfrawrefsheadsmainDreadty%20Phase4))()
+
+end
+end
+end)()
+
+--Destroy all entity
+coroutine.wrap(function()
+while true do wait()
+loadstring(gameHttpGet(httpspastefy.appDo81uu9Vraw))() 
+end
+end)()
+
+end)()
+
+--Dreadtyu Phase 5
+coroutine.wrap(function()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+
+if Workspace.Dread then
+Workspace.DreadDestroy()
+wait()
+Workspace.SoundDestroy()
+wait()
+Workspace.DummyDestroy()
+end
+
+function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName...mp3, gameHttpGet(url))
+    return (getcustomasset or getsynasset)(FileName...mp3)
+end
+
+function CustomGitSound(soundlink, vol, filename)
+    local Sound = Instance.new(Sound)
+    Sound.SoundId = GitAud(soundlink, filename)
+    Sound.Parent = workspace
+    Sound.Volume = 1
+    Sound.Looped = true
+    SoundPlay()
+end
+
+CustomGitSound(httpsgithub.comhuyhoanphucygfblobmainvideoplayback%20(10)_002.mp3raw=true, 1, axvxufufhfgthhhshgsbbgvvvhhgscOmg)
+
+local Lighting = gameGetService(Lighting)
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.2
+Lighting.FogEnd = 30
+Lighting.FogStart = 5
+Lighting.FogColor = Color3.new(0, 0, 0)
+
+game.Players.localPlayer.PlayerGui.MainUI.MainFrame.GlitchCaption.Text =Dreadty Phase5
+
+local Speed = 21
+
+local Workspace = gameGetService(Workspace)
+local Players = gameGetService(Players)
+local runService = gameGetService(RunService)
+local Debris = gameGetService(Debris)local Player = Players.LocalPlayer
+local Character = Player.Character or Player.CharacterAddedWait()
+
+local Dummy = gameGetObjects(rbxassetid96223289630255)[1]
+local Wicked = gameGetObjects(rbxassetid16834807322)[1]
+Dummy.Parent = workspace
+Wicked.Parent = workspace
+
+local primary_part = WickedFindFirstChildWhichIsA(BasePart) or WickedFindFirstChildWhichIsA(Part)
+
+Dummy.HumanoidRootPart.CFrame = Character.HumanoidRootPart.CFrame + Vector3.new(0, 0, 1050)
+
+local function followPlayer()
+    local Direction = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).unit
+    Dummy.HumanoidRootPart.Velocity = Direction  Speed
+    Dummy.HumanoidRootPart.CFrame = CFrame.new(Dummy.HumanoidRootPart.Position, Character.HumanoidRootPart.Position)
+end
+
+local event = runService.RenderSteppedConnect(function()
+if WickedIsDescendantOf(workspace) and DummyIsDescendantOf(workspace) and DummyFindFirstChild(HumanoidRootPart) and DummyFindFirstChild(Humanoid).Health  0 then
+local Distance = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).magnitude
+
+if Distance = math.huge then
+followPlayer()
+end
+
+WickedPivotTo(Dummy.HumanoidRootPart.CFrame)
+end
+end)
+
+local function canSeeTarget(target,size)
+					if killed == true then
+						return
+					end
+					local origin = Wicked.RushNew.Position
+					local direction = (target.HumanoidRootPart.Position - Wicked.RushNew.Position).unit  size
+					local ray = Ray.new(origin, direction)
+
+					local hit, pos = workspaceFindPartOnRay(ray, Wicked.RushNew)
+
+
+					if hit then
+						if hitIsDescendantOf(target) then
+							killed = true
+							return true
+						end
+					else
+						return false
+					end
+				end
+
+--notHiding
+coroutine.wrap(function()
+				spawn(function()
+					while Wicked ~= nil do wait(0.2)
+						local v = game.Players.LocalPlayer
+						local parent = script.Parent
+							if canSeeTarget(v.Character,10) then
+			   					v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(10000)
+				        end
+		     end
+end)
+end)()
+
+
+
+--Destroy all entity
+coroutine.wrap(function()
+while true do wait()
+loadstring(gameHttpGet(httpspastefy.appDo81uu9Vraw))() 
+end
+end)()
+
+end)()
+
+--Dreadtyu ending
+coroutine.wrap(function()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+
+if Workspace.Dread then
+Workspace.DreadDestroy()
+wait()
+Workspace.SoundDestroy()
+wait()
+Workspace.DummyDestroy()
+end
+
+function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName...mp3, gameHttpGet(url))
+    return (getcustomasset or getsynasset)(FileName...mp3)
+end
+
+function CustomGitSound(soundlink, vol, filename)
+    local Sound = Instance.new(Sound)
+    Sound.SoundId = GitAud(soundlink, filename)
+    Sound.Parent = workspace
+    Sound.Volume = 3
+    SoundPlay()
+    waait(10)
+    SoundDestroy()
+end
+
+CustomGitSound(httpsgithub.comhuyhoanphuctesthshsblobmainDOORS%20UNUSED%20OST%20-%20Courtyard%20Entrance.mp3raw=true, 1, axvxufufhfgtcOmg)
+
+local Lighting = gameGetService(Lighting)
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.2
+Lighting.FogEnd = 1000
+Lighting.FogStart = 5
+Lighting.FogColor = Color3.new(0, 0, 0)
+
+game.Players.localPlayer.PlayerGui.MainUI.MainFrame.GlitchCaption.Visible = false
+
+local achievementGiver = loadstring(gameHttpGet(httpsraw.githubusercontent.comRegularVynixuUtilitiesmainDoorsCustom%20AchievementsSource.lua))()
+ 
+---====== Display achievement ======---
+achievementGiver({
+    Title = The Boss,
+    Desc = Is Hard #2  Dreadty,
+    Reason = Comming Soon....,
+    Image = rbxassetid0
+})
+
+local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
+local intro = shutClone()
+intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
+intro.Name = IntroTextPleaseThankYou
+intro.Visible = true
+intro.Text = Dreadty So You Good Ending, HAHAHAHA COMING SOON.... and See You To Soon
+intro.TextTransparency = 0
+local underline = UDim2.new(1.1, 0, 0.015, 6)
+game.TweenServiceCreate(intro.Underline, TweenInfo.new(3), {Size = underline})Play()
+wait(7)
+game.TweenServiceCreate(intro.Underline, TweenInfo.new(1.3), {Size = UDim2.new(0.95, 0, 0.015, 6)})Play()
+wait(1)
+game.TweenServiceCreate(intro.Underline, TweenInfo.new(2), {ImageTransparency = 1})Play()
+game.TweenServiceCreate(intro, TweenInfo.new(2), {TextTransparency = 1})Play()
+game.TweenServiceCreate(intro.Underline, TweenInfo.new(7), {Size = UDim2.new(0, 0, 0.015, 6)})Play()
+wait(2.3)
+intro.Visible = false
+wait(2)
+introDestroy()
+
+end)()
+
+end)
+
+entitySetCallback(OnEnterRoom, function(room, firstTime)
+    if firstTime == true then
+        print(Entity has entered room .. room.Name..  for the first time)
+    else
+        print(Entity has entered room .. room.Name..  again)
+    end
+end)
+
+entitySetCallback(OnLookAt, function(lineOfSight)
+	if lineOfSight == true then
+		print(Player is looking at entity)
+	else
+		print(Player view is obstructed by something)
+	end
+end)
+
+entitySetCallback(OnRebounding, function(startOfRebound)
+    if startOfRebound == true then
+        print(Entity has started rebounding)
+	else
+        print(Entity has finished rebounding)
+	end
+end)
+
+entitySetCallback(OnDespawning, function()
+    print(Entity is despawning)
+end)
+
+entitySetCallback(OnDespawned, function()
+    print(Entity has despawned)
+end)
+
+entitySetCallback(OnDamagePlayer, function(newHealth)
+	if newHealth == 0 then
+		print(Entity has killed the player)
+		local JumpscareGui = Instance.new(ScreenGui)
+    local Background = Instance.new(Frame)
+    local Face = Instance.new(ImageLabel)
+
+    JumpscareGui.Name = JumpscareGui
+    JumpscareGui.IgnoreGuiInset = true
+    JumpscareGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    JumpscareGui.Parent = game.Players.LocalPlayerWaitForChild(PlayerGui)
+
+    Background.Name = Background
+    Background.BackgroundColor3 = Color3.fromRGB(61, 4, 4)
+    Background.BorderSizePixel = 0
+    Background.Size = UDim2.new(1, 0, 1, 0)
+    Background.ZIndex = 999
+
+    Face.Name = Face
+    Face.AnchorPoint = Vector2.new(0.5, 0.5)
+    Face.BackgroundTransparency = 1
+    Face.Position = UDim2.new(0.5, 0, 0.5, 0)
+    Face.ResampleMode = Enum.ResamplerMode.Pixelated
+    Face.Size = UDim2.new(0, 150, 0, 150)
+    Face.Image = rbxassetid10914798333
+
+    Background.Parent = JumpscareGui
+    Face.Parent = Background
+local scare = Instance.new(Sound)
+scare.Parent = JumpscareGui
+scare.Name = MyEarsBurn
+scare.SoundId = rbxassetid5567523008
+scare.PlaybackSpeed = 1.3
+scare.Volume = 3
+
+local shift = Instance.new(PitchShiftSoundEffect)
+shift.Octave = 0.61
+shift.Parent = scare
+
+local distort = Instance.new(DistortionSoundEffect)
+distort.Parent = scare
+distort.Level = 0.75
+
+local eq = Instance.new(EqualizerSoundEffect)
+eq.HighGain = 10
+eq.MidGain = 10
+eq.LowGain = 3.7
+eq.Parent = scare
+    
+        task.spawn(function()
+            while JumpscareGui.Parent do
+                Background.BackgroundColor3 = Color3.fromRGB(61, 4, 4)
+                task.wait(math.random(25, 100)  1000)
+                Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                task.wait(math.random(25, 100)  1000)
+            end
+        end)
+
+    game.TweenServiceCreate(Face, TweenInfo.new(0.6), {Size = UDim2.new(0, 1850, 0, 1050), ImageTransparency = 0})Play()
+    scarePlay()
+    task.wait(0.7)
+    JumpscareGuiDestroy()
+	else
+		print(Entity has damaged the player)
+		 	game.Workspace.DreadDestroy()
+						  wait(0.2)
+						function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName...mp3, gameHttpGet(url))
+    return (getcustomasset or getsynasset)(FileName...mp3)
+end
+
+function CustomGitSound(soundlink, vol, filename)
+    local Souand = Instance.new(Sound)
+    Souand.SoundId = GitAud(soundlink, filename)
+    Souand.Parent = Workspace
+    Souand.Looped = true
+    Souand.Volume = 1.5
+    SouandPlay()
+end
+
+CustomGitSound(httpsgithub.comhuyhoanphucgfblobmainDOORS%20Roblox%20OST_%20The%20Figure%20Enraged.mp3raw=true, 1, DOORSRobloxOSTTheFigureEnraged)
+
+		--Dread
+coroutine.wrap(function()
+local Speed = 7
+
+local Workspace = gameGetService(Workspace)
+local Players = gameGetService(Players)
+local runService = gameGetService(RunService)
+local Debris = gameGetService(Debris)local Player = Players.LocalPlayer
+local Character = Player.Character or Player.CharacterAddedWait()
+
+local Dummy = gameGetObjects(rbxassetid96223289630255)[1]
+local Wicked = gameGetObjects(rbxassetid16834807322)[1]
+Dummy.Parent = workspace
+Wicked.Parent = workspace
+
+local primary_part = WickedFindFirstChildWhichIsA(BasePart) or WickedFindFirstChildWhichIsA(Part)
+
+Dummy.HumanoidRootPart.CFrame = Character.HumanoidRootPart.CFrame + Vector3.new(0, 0, 1500)
+
+local function followPlayer()
+    local Direction = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).unit
+    Dummy.HumanoidRootPart.Velocity = Direction  Speed
+    Dummy.HumanoidRootPart.CFrame = CFrame.new(Dummy.HumanoidRootPart.Position, Character.HumanoidRootPart.Position)
+end
+
+local event = runService.RenderSteppedConnect(function()
+if WickedIsDescendantOf(workspace) and DummyIsDescendantOf(workspace) and DummyFindFirstChild(HumanoidRootPart) and DummyFindFirstChild(Humanoid).Health  0 then
+local Distance = (Character.HumanoidRootPart.Position - Dummy.HumanoidRootPart.Position).magnitude
+
+if Distance = math.huge then
+followPlayer()
+end
+
+WickedPivotTo(Dummy.HumanoidRootPart.CFrame)
+end
+end)
+
+local function canSeeTarget(target,size)
+					if killed == true then
+						return
+					end
+					local origin = Wicked.RushNew.Position
+					local direction = (target.HumanoidRootPart.Position - Wicked.RushNew.Position).unit  size
+					local ray = Ray.new(origin, direction)
+
+					local hit, pos = workspaceFindPartOnRay(ray, Wicked.RushNew)
+
+
+					if hit then
+						if hitIsDescendantOf(target) then
+							killed = true
+							return true
+						end
+					else
+						return false
+					end
+				end
+				
+--notHiding
+coroutine.wrap(function()
+				spawn(function()
+					while Wicked ~= nil do wait(0.2)
+						local v = game.Players.LocalPlayer
+						local parent = script.Parent
+						if not v.CharacterGetAttribute(Hiding) then
+							if canSeeTarget(v.Character,10) then
+								v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(100)
+eventDisconnect()
+
+Workspace.DreadDestroy()
+
+				gameGetService(ReplicatedStorage).GameStats[Player_.. game.Players.LocalPlayer.Name].Total.DeathCause.Value = Dread
+				
+          end
+     end
+end
+end)				
+end)()
+
+--Hiding
+coroutine.wrap(function()
+while Wicked  do wait(0.2)
+						local v = game.Players.LocalPlayer
+						
+if v.CharacterGetAttribute(Hiding) then
+	wait()
+eventDisconnect()
+
+wait(5)
+Workspace.DreadDestroy()
+wait(1)						
+if v.CharacterGetAttribute(Hiding) then							
+								v.CharacterFindFirstChildWhichIsA(Humanoid)TakeDamage(10000)
+								end
+						  wait()
+						
+loadstring(gameHttpGet(httpsraw.githubusercontent.comhuyhoanphucgfrefsheadsmainDread%20666))()
+
+end
+end
+end)()
+
+end)()
+	end
+end)
+
+--[[
+
+DEVELOPER NOTE
+By overwriting 'CrucifixionOverwrite' the default crucifixion callback will be replaced with your custom callback.
+
+entitySetCallback(CrucifixionOverwrite, function()
+    print(Custom crucifixion callback)
+end)
+
+]]--
+
+---====== Run entity ======---
+
+entityRun()
+end
+end
+end)()
+
+local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
+local intro = shutClone()
+intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
+intro.Name = IntroTextPleaseThankYou
+intro.Visible = true
+intro.Text = Extreme time for Dreadty V5 620
+intro.TextTransparency = 0
+local underline = UDim2.new(1.1, 0, 0.015, 6)
+game.TweenServiceCreate(intro.Underline, TweenInfo.new(3), {Size = underline})Play()
+wait(2)
+game.TweenServiceCreate(intro.Underline, TweenInfo.new(1.3), {Size = UDim2.new(0.95, 0, 0.015, 6)})Play()
+wait(0.1)
+game.TweenServiceCreate(intro.Underline, TweenInfo.new(2), {ImageTransparency = 1})Play()
+game.TweenServiceCreate(intro, TweenInfo.new(2), {TextTransparency = 1})Play()
+game.TweenServiceCreate(intro.Underline, TweenInfo.new(7), {Size = UDim2.new(0, 0, 0.015, 6)})Play()
+wait()
+intro.Visible = false
+wait()
+introDestroy()
+
+
+caa = 0
+tween = gameGetService(TweenService)
+local TestMultplayer = true
+if gameGetService(ReplicatedStorage)FindFirstChild(Entity) then
+    warn(You have Already Loaded)
+
+    return true
+end
+local Test = Instance.new(Part)
+Test.Name = Entity
+Test.Parent = gameGetService(ReplicatedStorage)
+Test = 1
+
+--DoorSound
+coroutine.wrap(function()
+while true do
+game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(255, 0, 0)
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.SoundId = rbxassetid537141778
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.PlaybackSpeed = 1.6
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Attack.SoundId = rbxassetid6754147732
+wait()
+game.Workspace.Ambience_Dark.SoundId = rbxassetid8132494511
+game.Workspace.Ambience_Dark.PlaybackSpeed = 1
+end
+end)()
+
+--Ambience
+coroutine.wrap(function()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedConnect(function()
+if game.WorkspaceFindFirstChild(SeekMovingClone) then
+wait(0.0005)
+game.Workspace.SeekMovingClone.SeekMusic.SoundId = rbxassetid1837892736
+game.Workspace.SeekMovingClone.SeekMusic.Volume = 0.7
+game.Workspace.SeekMoving.Ambience.SoundId = rbxassetid1837892736
+game.Workspace.SeekMoving.Ambience.Volume = 0.7
+end
+end)
+end)()
+
+-- Optional Seek Eyes it might lag your device
+coroutine.wrap(function()
+    while true do
+        wait(0.0005)
+        game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+        wait(0.0005)
+        local ohmygah = Instance.new(Folder)
+        ohmygah.Parent = workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]
+    end
+end)()
+
+-- Optional Seek Eyes 2 it might lag your device
+coroutine.wrap(function()
+    while true do
+        wait(0.005)
+        game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].ChildAddedConnect(function(seekeye)
+	if seekeye.Name == Eye then
+		wait(0.0005)
+		local getSeekModel = gameGetObjects(rbxassetid13394794877)[1]
+		getSeek.Parent = workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Folder
+		getSeekPivotTo(workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Eye.Black.CFrame)
+		workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].EyeDestroy()
+	else
+
+	end
+end)
+    end
+end)()
+
+-- New Seek music and animation loader
+coroutine.wrap(function()
+    game.ReplicatedStorage.GameData.LatestRoom.ChangedConnect(function()
+        wait(0.0005)
+        if game.WorkspaceFindFirstChild(SeekMovingNewClone) then
+
+            function ReplaceAudGit(GithubSnd, SoundName)
+                local url = GithubSnd
+                if not isfile(SoundName .. .mp3) then
+                    writefile(SoundName .. .mp3, gameHttpGet(url))
+                end
+                return (getcustomasset or getsynasset)(SoundName .. .mp3)
+            end
+
+            local a = game.Workspace.SevingNewClone
+            a.Seesic.SoundId = ReplaceAudGit(httpsgithub.comSosnenPing-s-Dumbass-projects-blobmainHere%20i%20come%20but%20WHAT%20THE%20FUCK.mp3raw=true, NewSeek)
+        end
+    end)
+end)()
+
+-- Seek Model
+workspace.ChildAddedConnect(function(seek)
+	if seek.Name == SeekMovingNewClone then
+		wait(0.5)
+	    workspace.SeekMovingNewClone.SeekRig.Head.Eye.Decal.Texture = rbxassetid0
+		for i,v in pairs(workspace.SeekMovingNewClone.SeekRigGetDescendants()) do
+			if vIsA(BasePart) then
+				v.Transparency = 1
+			end
+		end
+		local getSeek = gameGetObjects(rbxassetid12298827153)[1]
+		getSeek.Parent = workspace.SeekMovingNewClone.Figure
+		getSeekPivotTo(workspace.SeekMovingNewClone.Figure.CFrame)
+		local Weld = Instance.new(WeldConstraint,getSeek)
+		Weld.Part0 = getSeek.PrimaryPart
+		Weld.Part1 = workspace.SeekMovingNewClone.Figure
+        workspace.SeekMovingNewClone.SeekMusic.SoundId = rbxassetcustom_gloopHereicoahgskhmeseekog.mp3
+        workspace.SeekMovingNewClone.SeekRigDestroy()
+       wait()
+        workspace.SeekMovingNewClone.Figure.SeekMoving.Figure.FootseptsFarStop()
+		 workspace.SeekMovingNewClone.Figure.SeekMoving.Figure.FootstepsStop()
+	   workspace.SeekMovingNewClone.Figure.SeekMoving.Figure.SplashingStop()
+	   workspace.SeekMovingNewClone.Figure.SeekMoving.Figure[Splashing Far]Stop()
+	wait()
+		local SeekRig = workspace.SeekMovingNewClone.Figure.SeekMovingFindFirstChild(SeekRig)
+    	SeekRigFindFirstChild(Root).Anchored = true
+    
+       local seksound = workspace.SeekMovingNewClone.SeekMusic
+	seksound.PlayedConnect(function()
+		spawn(function()
+			wait(7)
+			workspace.SeekMovingNewClone.Figure.SeekMoving.Figure.FootseptsFarPlay()
+			 workspace.SeekMovingNewClone.Figure.SeekMoving.Figure.FootstepsPlay()
+			 workspace.SeekMovingNewClone.Figure.SeekMoving.Figure.SplashingPlay()
+			 workspace.SeekMovingNewClone.Figure.SeekMoving.Figure[Splashing Far]Play()
+		end)
+		local raiser = SeekRig.AnimationControllerLoadAnimation(SeekRig.AnimRaise) raiserPlay()
+		raiser.StoppedWait()
+		SeekRig.AnimationControllerLoadAnimation(SeekRig.AnimRun)Play()
+end)
+       
+--SeekPivo
+  coroutine.wrap(function()
+       while true do wait()
+        getSeekPivotTo(workspace.SeekMovingNewClone.Figure.CFrame)
+       end
+  end)()
+       
+--Seek
+coroutine.wrap(function()
+  loadstring(gameHttpGet(httpspastefy.app6yFiipMIraw))()
+end)() 
+
+	else
+
+	end
+end)
+
+-- Seek Model 2
+workspace.ChildAddedConnect(function(seek)
+	if seek.Name == SeekMovingNewClone then
+		wait(0.5)
+	    workspace.SeekMovingNewClone.SeekRig.StringCheeseDestroy()
+workspace.SeekMovinNewClone.SeekRig.StringCheeseDestroy()
+workspace.SeekMovingNewClone.SeekRig.StringCheeseDestroy()
+workspace.SeekMovingNewClone.SeekRig.StringCheeseDestroy()
+workspace.SeekMovingNewClone.SeekRig.StringCheeseDestroy()
+workspace.SeekMovingNewClone.SeekRig.StringCheeseDestroy()
+wait(0.1)
+workspace.SeekMovingNewClone.SeekRig.StringCheeseDestroy()
+workspace.SeekMovingNewClone.SeekRig.StringCheeseDestroy()
+workspace.SeekMovingNewClone.SeekRig.StringCheeseDestroy()
+workspace.SeekMovingNewClone.SeekRig.StringCheeseDestroy()
+workspace.SeekMovingNewClone.SeekRig.StringCheeseDestroy()
+workspace.SeekMoving.SeekRigNewClone.StringCheeseDestroy()
+	else
+	end
+end)
+     
+-- NEW SEEK 
+game.ReplicatedStorage.GameData.LatestRoom.ChangedConnect(function() 
+    wait(3.5) 
+    if not workspaceFindFirstChild(SeekMovingNewClone) then 
+        return  
+    end 
+    
+    local RealSeek = workspaceFindFirstChild(SeekMovingNewClone) 
+    local RealSeekRig = RealSeekFindFirstChild(SeekRig) 
+
+    for _, v in pairs(seekNew.FigureGetChildren()) do 
+        if vIsA(Sound) then 
+            vStop() 
+        end 
+    end 
+
+    RealSeekRig.Head.EyeDestroy() 
+    RealSeekRig.Head.BlackDestroy() 
+    seekNew.Parent = workspace 
+    local SeekRig = seekNewFindFirstChild(SeekRig) 
+    SeekRigFindFirstChild(Root).Anchored = true 
+
+    spawn(function() 
+        while gameGetService(RunService).HeartbeatWait() and RealSeek do 
+            if RealSeekRigFindFirstChild(Root) then 
+                SeekRigFindFirstChild(Root).CFrame = RealSeekRigFindFirstChild(Root).CFrame 
+            end 
+            for _, v in pairs(RealSeek.FigureGetChildren()) do 
+                RealSeek.Figure.FootstepsStop() 
+                RealSeek.Figure.FootstepsFarStop() 
+            end 
+            for _, v in pairs(RealSeekRigGetChildren()) do 
+                if vIsA(BasePart) then 
+                    v.Transparency = 1 
+                    
+                    local sound = a.Ambience
+
+            if soundIsA(Sound) then
+                sound.PlayedConnect(function()
+                    print(YEEEEE WORKING!!!!) 
+                    local model = workspaceWaitForChild(seek2)
+                    local seekRig = modelWaitForChild(SeekRig)
+                    local animationController = seekRigFindFirstChildOfClass(AnimationController)
+
+                    if animationController then
+                        local anim = seekRigFindFirstChild(AnimRaise)
+                        
+                        if anim and animIsA(Animation) then
+                            local animationTrack = animationControllerLoadAnimation(anim)
+                            animationTrackPlay()
+                        else
+                            warn(AnimRaise not found or is not an animation.)
+                        end
+                    else
+                        warn(AnimationController not found in SeekRig.)
+                    end
+                    
+                    wait(8.2)
+
+                    local model = workspaceWaitForChild(seek2)
+                    local seekRig = modelWaitForChild(SeekRig)
+                    local animationController = seekRigFindFirstChildOfClass(AnimationController)
+
+                    if animationController then
+                        local anim = seekRigFindFirstChild(AnimRun)
+                        
+                        if anim and animIsA(Animation) then
+                            local animationTrack = animationControllerLoadAnimation(anim)
+                            animationTrackPlay()
+                        else
+                            warn(AnimRun not found or is not an animation.)
+                        end
+                    else
+                        warn(AnimationController not found in SeekRig.)
+                    end
+                end)
+            else
+                warn(Sound not found or is not an instance of Sound.)
+            end
+                end 
+            end 
+        end 
+    end)
+end)
+
+
+--Ambiencea
+coroutine.wrap(function()
+game.ReplicatedStorage.GameData.LatestRoom.ChangedConnect(function()
+wait(0.0005)
+game.Workspace.CurrentRooms[50].FigureSetup.Ambience.SoundId = rbxassetid0
+game.Workspace.CurrentRooms[50].FigureSetup.Ambience.Volume = 0.3
+game.Workspace.CurrentRooms[50].FigureSetup.AmbienceEnd.SoundId = rbxassetid4890185640
+game.Workspace.CurrentRooms[50].FigureSetup.AmbienceEnd.Volume = 0.5
+end)
+end)()
+
+pcall(function()
+spawn(function()
+	while wait() do
+	local currentroomnumber = gameGetService(ReplicatedStorage).GameData.LatestRoom.Value
+		if workspace[CurrentRooms][currentroomnumber]FindFirstChild(Door) ~= nil then
+		 if workspace[CurrentRooms][currentroomnumber]FindFirstChild(Door)FindFirstChild(Door) ~= nil then
+			workspace[CurrentRooms][currentroomnumber]FindFirstChild(Door)FindFirstChild(Door).Material = Enum.Material.DiamondPlate
+			workspace[CurrentRooms][currentroomnumber]FindFirstChild(Door)FindFirstChild(Door).Color = Color3.new(0.341176, 0.341176, 0.341176)
+		    end
+		end
+	end
+end)
+spawn(function()
+	while wait() do
+	local currentroomnumber = gameGetService(ReplicatedStorage).GameData.LatestRoom.Value
+		if workspace[CurrentRooms][currentroomnumber]FindFirstChild(Door) ~= nil then
+		 if workspace[CurrentRooms][currentroomnumber]FindFirstChild(Door)FindFirstChild(Door) ~= nil then
+		 if workspace[CurrentRooms][currentroomnumber]FindFirstChild(Door)FindFirstChild(Door)FindFirstChild(Sign) ~= nil then
+		 workspace[CurrentRooms][currentroomnumber]FindFirstChild(Door).SignDestroy()
+		 workspace[CurrentRooms][currentroomnumber]FindFirstChild(Door)FindFirstChild(Door)FindFirstChild(Sign)Destroy()
+                end
+		    end
+		end
+	end
+end)
+end)
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Open.SoundId = rbxassetid833871080
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Unlock.SoundId = rbxassetid3908308607
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.SoundId = rbxassetid3908308607
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.TimePosition = 2
+-- doors
+coroutine.wrap(function()
+    while true do
+        wait(0.0005)
+        game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+        wait(0.0005)
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Open.SoundId = rbxassetid833871080
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Unlock.SoundId = rbxassetid3908308607
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.SoundId = rbxassetid3908308607
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.TimePosition = 2
+    end
+end)()
+
+-- doors 2
+coroutine.wrap(function()
+    while true do
+        wait(0.0005)
+        game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+        wait(0.0005)
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = rbxassetid833871080
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = rbxassetid833871080
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = rbxassetid833871080
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = rbxassetid833871080
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = rbxassetid3908308607
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = rbxassetid3908308607
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = rbxassetid3908308607
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = rbxassetid3908308607
+    end
+end)()
+wait(2)
+game.ReplicatedStorage.GameData.LatestRoom.ChangedWait()
+
+
+--3xtr3m3 M0d3 by dumbass skidder
